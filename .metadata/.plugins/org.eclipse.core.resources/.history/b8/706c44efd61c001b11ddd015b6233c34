@@ -1,0 +1,17 @@
+
+public class conversion {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		double tempC;
+		double tempF;
+		double conversion = 9/5 * 32;
+		// TODO Auto-generated method stub
+		System.out.println("How hot is it in celcius? ");
+		tempC = in.nextLine();
+		tempF = 
+	}
+
+}

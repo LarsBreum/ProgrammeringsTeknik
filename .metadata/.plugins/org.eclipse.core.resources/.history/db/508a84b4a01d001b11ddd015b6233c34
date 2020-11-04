@@ -1,0 +1,15 @@
+
+import java.util.Scanner;
+
+public class conversion {
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		int tempC = 28;
+		// TODO Auto-generated method stub
+		System.out.println("How hot is it in C?");
+		System.out.printf("it is %s degrees celsius", tempC);
+	}
+
+}

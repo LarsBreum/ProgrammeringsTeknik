@@ -1,0 +1,17 @@
+
+import java.util.Scanner;
+
+public class conversion {
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		int tempC, tempF;
+		scanner in = new scanner Scanner(System.in);
+		// TODO Auto-generated method stub
+		System.out.println("How hot is it in C?");
+		tempC = in.nextInt;
+		System.out.printf("it is %s degrees celsius\n", tempC);
+	}
+
+}

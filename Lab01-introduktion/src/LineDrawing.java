@@ -5,8 +5,13 @@ public class LineDrawing {
 		SimpleWindow w = new SimpleWindow(500, 500, "LineDrawing");
 		w.moveTo(0, 0);
 		while (true) {
+			
 			// vänta tills användaren klickar på en musknapp
+			w.waitForMouseClick();
+			
 			// rita en linje till den punkt där användaren klickade
+			w.lineTo(w.getClickedX(), w.getClickedY());
+			
 		}
 	}
 }
