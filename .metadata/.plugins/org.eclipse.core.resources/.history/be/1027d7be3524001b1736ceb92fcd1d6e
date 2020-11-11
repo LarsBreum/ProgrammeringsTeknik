@@ -1,0 +1,15 @@
+import se.lth.cs.pt.window.SimpleWindow;
+
+public class Graphics {
+	
+	private SimpleWindow w = new simpleWindow(300, 500, "Digging");
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+
+	}
+
+}
