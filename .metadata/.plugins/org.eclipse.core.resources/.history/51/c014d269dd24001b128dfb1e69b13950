@@ -1,0 +1,18 @@
+
+
+public class Mole {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Graphics g = new Graphics(30, 50, 10);
+		
+	}
+	
+	public void drawWorld(){
+		g.rectangle();
+	}
+
+}

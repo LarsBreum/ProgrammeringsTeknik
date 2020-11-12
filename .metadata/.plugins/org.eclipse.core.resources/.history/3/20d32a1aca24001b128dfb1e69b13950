@@ -1,0 +1,16 @@
+import se.lth.cs.pt.window.SimpleWindow;
+
+
+public class Mole {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//Graphics g = new Graphics();
+		g.square();
+		
+	}
+
+}
