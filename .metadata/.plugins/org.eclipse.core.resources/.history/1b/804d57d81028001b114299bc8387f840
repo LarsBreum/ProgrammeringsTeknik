@@ -1,0 +1,31 @@
+
+
+public class Mole {
+	Graphics g = new Graphics(30, 50, 10);
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Mole fluffy = new Mole();
+		fluffy.drawWorld();
+		fluffy.dig();
+		
+	}
+	
+	public void drawWorld(){
+		g.rectangle(0, 0, 40, 40, Colors.SOIL);
+	}
+	
+	public void dig(){
+		int x = g.getWidth() / 2; // För att börja på mitten
+		int y = g.getHeight() / 2;
+		while (true) {
+			g.block(x, y, Colors.MOLE);
+			char key = g.waitForKey();
+			if (key == 'w') { System.out.println(key); }
+			else if (key == 'a') { System.out.println(key); }
+			else if (key == 's') { System.out.println(key); }
+			else if (key == 'd') { System.out.println(key); }
+		}
+	}
+
+}

@@ -1,0 +1,16 @@
+
+public class Worm {
+	
+	private int y = 0;
+	private int x = 0;
+	
+	Worm(int x, int y) {
+		x = this.x;
+		this.y = y;
+		
+		
+	}
+	
+	
+
+}

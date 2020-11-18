@@ -1,0 +1,46 @@
+
+
+public class Mole {
+	final int worldWidth = 30;
+	final int worldHeight = 50;
+	final int blockSize = 10;
+	Graphics g = new Graphics(worldWidth, worldHeight, blockSize);
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Mole fluffy = new Mole();
+		fluffy.drawWorld();
+		fluffy.dig();
+		
+	}
+	
+	public void drawWorld(){
+		g.rectangle(0, 0, worldWidth, 50, Colors.SOIL);
+	}
+	
+	public void dig(){
+		int x = g.getWidth() / 2; // För att börja på mitten
+		int y = g.getHeight() / 2;
+		while (true) {
+			g.block(x, y, Colors.TUNNEL);
+			char key = g.waitForKey();
+			
+			g.block(x,y, Colors.MOLE);
+			
+			if (key == 'w') { y--; System.out.println(y); }
+			else if (key == 'a') { x--; System.out.println(x); }
+			else if (key == 's') { y++; System.out.println(y); }
+			else if (key == 'd') { x++; System.out.println(x); }
+			if (y<worldHeight-worldHeight){
+				y=worldHeight;
+			} else if (y>worldHeight) {
+				y=0;
+			} else if (x<worldWidth-worldWidth) {
+				x=worldWidth;
+			} else if (x>worldWidth) {
+				x=0;
+			}
+		}
+	}
+
+}

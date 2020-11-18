@@ -1,0 +1,25 @@
+import Java.util.random;
+
+
+
+public class Worm {
+	
+	private int y = 0;
+	private int x = 0;
+	
+	Worm(int x, int y) {
+		x = this.x;
+		y = this.y;
+		
+	}
+	
+	public int getX(){
+		return(x);
+	}
+	public int getY(){
+		return(y);
+	}
+	
+	
+
+}

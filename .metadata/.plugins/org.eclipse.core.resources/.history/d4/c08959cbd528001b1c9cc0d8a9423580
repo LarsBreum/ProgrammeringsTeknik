@@ -1,0 +1,26 @@
+import java.util.Random;
+
+
+
+public class Worm {
+	Random rand = new Random();
+	
+	private int y = rand.NextInt(50);
+	private int x = rand.NextInt(70);
+	
+	Worm(int x, int y) {
+		x = this.x;
+		y = this.y;
+		
+	}
+	
+	public int getX(){
+		return(x);
+	}
+	public int getY(){
+		return(y);
+	}
+	
+	
+
+}
