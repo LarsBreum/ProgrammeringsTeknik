@@ -1,0 +1,15 @@
+
+public class HeavyAxe {
+	
+	String name = "Heavy Axe";	
+	int damage;
+	int chance;
+	int hits;
+	
+	HeavyAxe(){
+		damage = 10;
+		chance = 60;
+		hits = 3;
+	}
+
+}

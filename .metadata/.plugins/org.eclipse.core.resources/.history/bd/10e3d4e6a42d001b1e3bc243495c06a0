@@ -1,0 +1,13 @@
+
+public class Dagger {
+	
+	String name = "Dagger";	
+	int damage;
+	int chance;
+	
+	Dagger(){
+		damage = 10;
+		chance = 60;
+	}
+
+}

@@ -1,0 +1,27 @@
+
+import java.util.Random;
+import java.util.Scanner;
+public class Main {
+
+	
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		Player pl1 = new Player();
+		Random rand = new Random();
+		
+		String intro = "It's time to create your character. This part is about luck." +
+				" First we need to figure out your maximum amount of health. Are you ready?" +
+				"Type \"Yes\" if you're ready";
+		System.out.println(intro);
+		sc.nextString();
+		
+		
+		
+		
+		pl1.setHealth(rand.nextInt(99)+1);
+		
+		System.out.println(pl1.getHealth());
+
+	}
+
+}

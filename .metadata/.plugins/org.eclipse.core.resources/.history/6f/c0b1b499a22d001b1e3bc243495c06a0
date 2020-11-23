@@ -1,0 +1,23 @@
+
+import java.util.Random;
+
+public class Main {
+
+	
+	public static void main(String[] args) {
+		
+		Player pl1 = new Player();
+		Random rand = new Random();
+		
+		String intro = "It's time to create your character. This part is about luck." +
+				" First we need to figure out your maximum amount of health. Are you ready?";
+		
+		
+		
+		pl1.setHealth(rand.nextInt(99)+1);
+		
+		System.out.println(pl1.getHealth());
+
+	}
+
+}

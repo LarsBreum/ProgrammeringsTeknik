@@ -1,0 +1,19 @@
+
+public class Player {
+	int health;
+	int strength;
+	int defense;
+	String weapon;
+	
+	public Player (){
+		health = 0;
+		strength = 0;
+		defense = 0;
+		weapon = "Sword";
+	}
+	public static int getHealth(){
+		return(health);
+	}
+	
+	
+}

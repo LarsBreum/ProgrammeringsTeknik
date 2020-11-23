@@ -1,0 +1,33 @@
+
+import java.util.Random;
+import java.util.Scanner;
+public class Main {
+
+	
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		Player pl1 = new Player();
+		Random rand = new Random();
+		
+		String intro = "It's time to create your character. This part is about luck." +
+				" First we need to figure out your maximum amount of health. Are you ready? " +
+				"Type \"Yes\" if you're ready";
+		System.out.println(intro);
+		//if(sc.next().equalsIgnoreCase("Yes")){
+			System.out.println("Okay then. May lady luck favour you");
+			pl1.setHealth(rand.nextInt(99)+1);
+			System.out.println("You have: " + pl1.getHealth() + " out of 100 Health points");
+		//}
+		System.out.println("Now let's figure out how strong you are.");
+		pl1.setStrength(rand.nextInt(99)+1);
+		System.out.println("You have " + pl1.getStrength() + " out of 100 Strength points");
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

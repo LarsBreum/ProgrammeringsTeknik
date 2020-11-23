@@ -1,0 +1,12 @@
+
+public class Dagger {
+
+	int damage;
+	int chance;
+	
+	dagger(){
+		damage = 10;
+		chance = 60;
+	}
+
+}

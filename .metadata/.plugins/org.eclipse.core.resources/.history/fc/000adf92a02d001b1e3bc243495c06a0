@@ -1,0 +1,13 @@
+
+public class Main {
+
+	
+	public static void main(String[] args) {
+		
+		Player pl1 = new Player();
+		
+		System.out.println(pl1.getHealth());
+
+	}
+
+}

@@ -1,0 +1,7 @@
+
+public class Player {
+	int health = 0;
+	int strength = 0;
+	int defense = 0;
+	String weapon = "Sword";
+}

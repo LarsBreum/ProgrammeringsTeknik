@@ -1,0 +1,7 @@
+
+public class Dagger {
+
+	int damage;
+	int chance;
+
+}
