@@ -1,0 +1,36 @@
+
+import java.util.Random;
+import java.util.Scanner;
+public class Main {
+	
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int pick = 0;
+		Player pl1 = new Player(pickCha(pick, sc));
+		System.out.println(pl1.getWeapon());
+		
+	}
+	public static int pickCha(int pick, Scanner sc){
+			
+			System.out.println("Choose your caracter");
+			System.out.println("Press 1 for: Troll");
+			System.out.println("Press 2 for: Man");
+			System.out.println("Press 3 for: Elf");
+			pick = sc.nextInt();
+			while (true){
+				if(pick == 1) {
+					System.out.println("You chose the Troll!");
+				} else if (pick == 2) {
+					System.out.println("You chose the Man!");
+				} else if (pick == 3) {
+					System.out.println("You chose the elf!");
+				} else {
+					System.out.println("You can only choose one of those three -try again");
+				}
+			}
+			System.out.println("int pick is: " + pick);
+		return(pick);
+		
+	}
+
+}

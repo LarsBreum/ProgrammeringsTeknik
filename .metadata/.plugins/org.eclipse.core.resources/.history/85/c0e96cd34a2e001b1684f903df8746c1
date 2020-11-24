@@ -1,0 +1,57 @@
+
+
+public class Player {
+	private int health;
+	private int strength;
+	private int skill;
+	private String weapon;
+	
+	Player (int pick){
+		if (pick == 1){
+			health = 150;
+			strength = 80;
+			skill = 0;
+			weapon = "Club";
+		} else if (pick == 2) {
+			health = 100;
+			strength = 60;
+			skill = 60;
+			weapon = "Sword";
+		} else if (pick == 3) {
+			health = 90;
+			strength = 50;
+			skill = 80;
+			weapon = "Dagger";
+		}
+		
+	}
+	
+	//GETTERS
+	public int getHealth(){
+		return(health);
+	}
+	public int getStrength(){
+		return(strength);
+	}
+	public int getSkill(){
+		return(skill);
+	}
+	public String getWeapon(){
+		return(weapon);
+	}
+	
+	//SETTERS
+	public void setHealth(int i){
+		health = i;
+	}
+	public void setStrength(int i){
+		strength = i;
+	}
+	public void setDefense(int i){
+		skill = i;
+	}
+	public void setWeapon(String s){
+		weapon = s;
+	}
+	
+}

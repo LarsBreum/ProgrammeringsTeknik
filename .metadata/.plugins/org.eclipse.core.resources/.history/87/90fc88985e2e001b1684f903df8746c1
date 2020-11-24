@@ -1,0 +1,35 @@
+
+public class Enemy {
+
+	int health;
+	int strength;
+	int skill;
+
+	Enemy() {
+		health = 100;
+		strength = 50;
+		skill = 50;
+	}
+	//GETTERS
+	public int getHealth(){
+		return(health);
+	}
+	public int getStrength(){
+		return(strength);
+	}
+	public int getSkill(){
+		return(skill);
+	}
+	
+	//SETTERS
+	public void setHealth(int i){
+		health = i;
+	}
+	public void setStrength(int i){
+		strength = i;
+	}
+	public void setDefense(int i){
+		skill = i;
+	}
+	
+}

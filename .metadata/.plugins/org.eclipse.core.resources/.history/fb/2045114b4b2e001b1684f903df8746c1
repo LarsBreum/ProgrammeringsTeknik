@@ -1,0 +1,15 @@
+
+public class Enemy {
+
+	private int health;
+	private int strength;
+	private int skill;
+
+	
+	health = 100;
+	strength = 50;
+	skill = 50;
+	
+	
+
+}
