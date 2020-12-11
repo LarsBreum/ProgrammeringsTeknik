@@ -32,31 +32,21 @@
 <part id="0"/>
 <part id="1"/>
 <part id="2"/>
-<part id="3"/>
-<part id="4"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DrawSquare.java" partName="DrawSquare.java" path="/home/lars/Documents/Uni/pt-workspace/Lab02-anv-square/src/DrawSquare.java" title="DrawSquare.java" tooltip="Lab02-anv-square/src/DrawSquare.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Lab02-anv-square/src/DrawSquare.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="246" selectionTopPixel="0"/>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Main.java" partName="Main.java" path="/home/lars/Documents/Uni/pt-workspace/Lab04-textspel-klasser/src/Main.java" title="Main.java" tooltip="Lab04-textspel-klasser/src/Main.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Lab04-textspel-klasser/src/Main.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1912" selectionTopPixel="73"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DrawThreeSquares.java" partName="DrawThreeSquares.java" path="/home/lars/Documents/Uni/pt-workspace/Lab02-anv-square/src/DrawThreeSquares.java" title="DrawThreeSquares.java" tooltip="Lab02-anv-square/src/DrawThreeSquares.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Lab02-anv-square/src/DrawThreeSquares.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="16" selectionOffset="275" selectionTopPixel="0"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Player.java" partName="Player.java" path="/home/lars/Documents/Uni/pt-workspace/Lab04-textspel-klasser/src/Player.java" title="Player.java" tooltip="Lab04-textspel-klasser/src/Player.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Lab04-textspel-klasser/src/Player.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="359" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PrintClicks.java" partName="PrintClicks.java" path="/home/lars/Documents/Uni/pt-workspace/Lab02-anv-square/src/PrintClicks.java" title="PrintClicks.java" tooltip="Lab02-anv-square/src/PrintClicks.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Lab02-anv-square/src/PrintClicks.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PrintClickDists.java" partName="PrintClickDists.java" path="/home/lars/Documents/Uni/pt-workspace/Lab02-anv-square/src/PrintClickDists.java" title="PrintClickDists.java" tooltip="Lab02-anv-square/src/PrintClickDists.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Lab02-anv-square/src/PrintClickDists.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="2" selectionOffset="40" selectionTopPixel="0"/>
-</editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UserDrawSquare.java" partName="UserDrawSquare.java" path="/home/lars/Documents/Uni/pt-workspace/Lab02-anv-square/src/UserDrawSquare.java" title="UserDrawSquare.java" tooltip="Lab02-anv-square/src/UserDrawSquare.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Lab02-anv-square/src/UserDrawSquare.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="729" selectionTopPixel="0"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Enemy.java" partName="Enemy.java" path="/home/lars/Documents/Uni/pt-workspace/Lab04-textspel-klasser/src/Enemy.java" title="Enemy.java" tooltip="Lab04-textspel-klasser/src/Enemy.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Lab04-textspel-klasser/src/Enemy.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="106" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -94,6 +84,7 @@
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
 <category IMemento.internal.id="Errors"/>
+<category IMemento.internal.id="Warnings"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="825" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
@@ -273,7 +264,7 @@
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.25" ratioLeft="478" ratioRight="1434" relationship="2" relative="left"/>
-<info folder="true" part="bottom" ratio="0.75" ratioLeft="690" ratioRight="230" relationship="4" relative="org.eclipse.ui.editorss">
+<info folder="true" part="bottom" ratio="0.73282444" ratioLeft="672" ratioRight="245" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
@@ -307,161 +298,160 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lab02-anv-square/src/DrawThreeSquares.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lab02-anv-square/src/PrintClicks.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lab02-anv-square/src/PrintClickDists.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lab02-anv-square/src/UserDrawSquare.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lab02-anv-square/src/UserDrawSquare.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lab04-textspel-klasser/src/Main.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lab04-textspel-klasser/src/Player.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lab04-textspel-klasser/src/Enemy.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lab03-jblockmole/src/Mole.java"/>
 </editors>
-<item historyLabel="UserDrawSquare.java" index="3">
-<position info="not_deleted" x="431" y="0"/>
+<item historyLabel="Main.java" index="0">
+<position info="not_deleted" x="2269" y="0"/>
 </item>
-<item historyLabel="PrintClicks.java" index="1">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="PrintClickDists.java" index="2">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="UserDrawSquare.java" index="3">
-<position info="not_deleted" x="431" y="0"/>
-</item>
-<item historyLabel="UserDrawSquare.java" index="3">
-<position info="not_deleted" x="356" y="0"/>
-</item>
-<item historyLabel="PrintClicks.java" index="1">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="PrintClickDists.java" index="2">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="UserDrawSquare.java" index="3">
-<position info="not_deleted" x="356" y="0"/>
-</item>
-<item historyLabel="UserDrawSquare.java" index="3">
-<position info="not_deleted" x="402" y="0"/>
-</item>
-<item historyLabel="UserDrawSquare.java" index="3">
-<position info="not_deleted" x="429" y="0"/>
-</item>
-<item historyLabel="UserDrawSquare.java" index="3">
-<position info="not_deleted" x="374" y="0"/>
-</item>
-<item historyLabel="PrintClicks.java" index="1">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="PrintClickDists.java" index="2">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="UserDrawSquare.java" index="3">
-<position info="not_deleted" x="374" y="0"/>
-</item>
-<item historyLabel="PrintClickDists.java" index="2">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="DrawThreeSquares.java" index="0">
-<position info="not_deleted" x="275" y="16"/>
-</item>
-<item historyLabel="UserDrawSquare.java" index="4">
-<position info="not_deleted" x="726" y="0"/>
-</item>
-<item historyLabel="PrintClickDists.java" index="2">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="UserDrawSquare.java" index="4">
-<position info="not_deleted" x="303" y="0"/>
-</item>
-<item historyLabel="PrintClickDists.java" index="2">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="UserDrawSquare.java" index="4">
-<position info="not_deleted" x="723" y="0"/>
-</item>
-<item historyLabel="DrawThreeSquares.java" index="0">
-<position info="not_deleted" x="275" y="16"/>
-</item>
-<item historyLabel="UserDrawSquare.java" index="4">
-<position info="not_deleted" x="723" y="0"/>
-</item>
-<item historyLabel="DrawThreeSquares.java" index="0">
-<position info="not_deleted" x="275" y="16"/>
-</item>
-<item historyLabel="UserDrawSquare.java" index="4">
-<position info="not_deleted" x="723" y="0"/>
-</item>
-<item historyLabel="UserDrawSquare.java" index="4">
-<position info="not_deleted" x="535" y="0"/>
-</item>
-<item historyLabel="UserDrawSquare.java" index="4">
-<position info="not_deleted" x="474" y="0"/>
-</item>
-<item historyLabel="PrintClickDists.java" index="2">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="UserDrawSquare.java" index="4">
-<position info="not_deleted" x="474" y="0"/>
-</item>
-<item historyLabel="UserDrawSquare.java" index="4">
-<position info="not_deleted" x="660" y="0"/>
-</item>
-<item historyLabel="UserDrawSquare.java" index="4">
+<item historyLabel="Main.java" index="0">
 <position/>
 </item>
-<item historyLabel="PrintClickDists.java" index="2">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="UserDrawSquare.java" index="4">
-<position info="not_deleted" x="481" y="0"/>
-</item>
-<item historyLabel="UserDrawSquare.java" index="4">
-<position info="not_deleted" x="535" y="0"/>
-</item>
-<item historyLabel="UserDrawSquare.java" index="4">
-<position info="not_deleted" x="519" y="0"/>
-</item>
-<item historyLabel="PrintClickDists.java" index="2">
-<position info="not_deleted" x="40" y="2"/>
-</item>
-<item historyLabel="UserDrawSquare.java" index="4">
-<position info="not_deleted" x="726" y="0"/>
-</item>
-<item historyLabel="UserDrawSquare.java" index="4">
-<position info="not_deleted" x="723" y="0"/>
-</item>
-<item historyLabel="UserDrawSquare.java" index="4">
-<position info="not_deleted" x="572" y="0"/>
-</item>
-<item historyLabel="UserDrawSquare.java" index="4">
+<item historyLabel="Main.java" index="0">
 <position/>
 </item>
-<item historyLabel="UserDrawSquare.java" index="4">
-<position info="not_deleted" x="614" y="0"/>
-</item>
-<item historyLabel="UserDrawSquare.java" index="4">
+<item historyLabel="Main.java" index="0">
 <position/>
 </item>
-<item historyLabel="UserDrawSquare.java" index="4">
-<position info="not_deleted" x="563" y="0"/>
+<item historyLabel="Main.java" index="0">
+<position info="not_deleted" x="3124" y="0"/>
 </item>
-<item historyLabel="PrintClickDists.java" index="2">
-<position info="not_deleted" x="40" y="2"/>
+<item historyLabel="Main.java" index="0">
+<position info="not_deleted" x="1859" y="0"/>
 </item>
-<item historyLabel="UserDrawSquare.java" index="4">
-<position info="not_deleted" x="537" y="0"/>
+<item historyLabel="Main.java" index="0">
+<position/>
 </item>
-<item historyLabel="PrintClickDists.java" index="2">
-<position info="not_deleted" x="40" y="2"/>
+<item historyLabel="Main.java" index="0">
+<position info="not_deleted" x="1542" y="0"/>
 </item>
-<item historyLabel="UserDrawSquare.java" index="4">
-<position info="not_deleted" x="640" y="0"/>
+<item historyLabel="Main.java" index="0">
+<position info="not_deleted" x="3359" y="0"/>
 </item>
-<item historyLabel="PrintClickDists.java" index="2">
-<position info="not_deleted" x="40" y="2"/>
+<item historyLabel="Main.java" index="0">
+<position info="not_deleted" x="2820" y="0"/>
 </item>
-<item historyLabel="UserDrawSquare.java" index="4">
-<position info="not_deleted" x="640" y="0"/>
+<item historyLabel="Main.java" index="0">
+<position/>
 </item>
-<item active="true" historyLabel="UserDrawSquare.java" index="4">
-<position info="not_deleted" x="779" y="0"/>
+<item historyLabel="Main.java" index="0">
+<position/>
+</item>
+<item historyLabel="Player.java" index="1">
+<position info="not_deleted" x="359" y="0"/>
+</item>
+<item historyLabel="Enemy.java" index="2">
+<position info="not_deleted" x="228" y="0"/>
+</item>
+<item historyLabel="Main.java" index="0">
+<position/>
+</item>
+<item historyLabel="Player.java" index="1">
+<position info="not_deleted" x="359" y="0"/>
+</item>
+<item historyLabel="Main.java" index="0">
+<position/>
+</item>
+<item historyLabel="Main.java" index="0">
+<position info="not_deleted" x="1873" y="0"/>
+</item>
+<item historyLabel="Enemy.java" index="2">
+<position info="not_deleted" x="90" y="0"/>
+</item>
+<item historyLabel="Main.java" index="0">
+<position info="not_deleted" x="1873" y="0"/>
+</item>
+<item historyLabel="Main.java" index="0">
+<position info="not_deleted" x="3258" y="0"/>
+</item>
+<item historyLabel="Main.java" index="0">
+<position info="not_deleted" x="3240" y="0"/>
+</item>
+<item historyLabel="Main.java" index="0">
+<position info="not_deleted" x="3281" y="0"/>
+</item>
+<item historyLabel="Enemy.java" index="2">
+<position info="not_deleted" x="120" y="0"/>
+</item>
+<item historyLabel="Main.java" index="0">
+<position info="not_deleted" x="3281" y="0"/>
+</item>
+<item historyLabel="Enemy.java" index="2">
+<position info="not_deleted" x="106" y="0"/>
+</item>
+<item historyLabel="Player.java" index="1">
+<position info="not_deleted" x="359" y="0"/>
+</item>
+<item historyLabel="Main.java" index="0">
+<position info="not_deleted" x="3281" y="0"/>
+</item>
+<item historyLabel="Main.java" index="0">
+<position info="not_deleted" x="2654" y="0"/>
+</item>
+<item historyLabel="Main.java" index="0">
+<position info="not_deleted" x="1954" y="0"/>
+</item>
+<item historyLabel="Main.java" index="0">
+<position info="not_deleted" x="3072" y="0"/>
+</item>
+<item historyLabel="Enemy.java" index="2">
+<position info="not_deleted" x="106" y="0"/>
+</item>
+<item historyLabel="Player.java" index="1">
+<position info="not_deleted" x="359" y="0"/>
+</item>
+<item historyLabel="Main.java" index="0">
+<position info="not_deleted" x="2744" y="0"/>
+</item>
+<item historyLabel="Enemy.java" index="2">
+<position info="not_deleted" x="106" y="0"/>
+</item>
+<item historyLabel="Main.java" index="0">
+<position info="not_deleted" x="2744" y="0"/>
+</item>
+<item historyLabel="Player.java" index="1">
+<position info="not_deleted" x="359" y="0"/>
+</item>
+<item historyLabel="Main.java" index="0">
+<position info="not_deleted" x="1079" y="0"/>
+</item>
+<item historyLabel="Enemy.java" index="2">
+<position info="not_deleted" x="106" y="0"/>
+</item>
+<item historyLabel="Player.java" index="1">
+<position info="not_deleted" x="359" y="0"/>
+</item>
+<item historyLabel="Main.java" index="0">
+<position info="not_deleted" x="2724" y="0"/>
+</item>
+<item historyLabel="Mole.java" index="3">
+<position info="not_deleted" x="1321" y="0"/>
+</item>
+<item historyLabel="Main.java" index="0">
+<position info="not_deleted" x="2724" y="0"/>
+</item>
+<item historyLabel="Main.java" index="0">
+<position/>
+</item>
+<item historyLabel="Main.java" index="0">
+<position info="not_deleted" x="1912" y="0"/>
+</item>
+<item historyLabel="Player.java" index="1">
+<position info="not_deleted" x="359" y="0"/>
+</item>
+<item historyLabel="Enemy.java" index="2">
+<position info="not_deleted" x="106" y="0"/>
+</item>
+<item historyLabel="Main.java" index="0">
+<position info="not_deleted" x="1912" y="0"/>
+</item>
+<item historyLabel="Player.java" index="1">
+<position info="not_deleted" x="359" y="0"/>
+</item>
+<item active="true" historyLabel="Main.java" index="0">
+<position info="not_deleted" x="1912" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -480,6 +470,21 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Mole.java" tooltip="Lab03-jblockmole/src/Mole.java">
+<persistable path="/Lab03-jblockmole/src/Mole.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Enemy.java" tooltip="Lab04-textspel-klasser/src/Enemy.java">
+<persistable path="/Lab04-textspel-klasser/src/Enemy.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LevelOne.java" tooltip="Lab04-textspel-klasser/src/LevelOne.java">
+<persistable path="/Lab04-textspel-klasser/src/LevelOne.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Player.java" tooltip="Lab04-textspel-klasser/src/Player.java">
+<persistable path="/Lab04-textspel-klasser/src/Player.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Main.java" tooltip="Lab04-textspel-klasser/src/Main.java">
+<persistable path="/Lab04-textspel-klasser/src/Main.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UserDrawSquare.java" tooltip="Lab02-anv-square/src/UserDrawSquare.java">
 <persistable path="/Lab02-anv-square/src/UserDrawSquare.java"/>
 </file>
@@ -509,9 +514,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LineDrawing.java" tooltip="Lab01-introduktion/src/LineDrawing.java">
 <persistable path="/Lab01-introduktion/src/LineDrawing.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.browser.editorSupport" name="kurspaket.html" tooltip="cs_pt/kurspaket.html">
-<persistable path="/cs_pt/kurspaket.html"/>
 </file>
 </mruList>
 </workbench>

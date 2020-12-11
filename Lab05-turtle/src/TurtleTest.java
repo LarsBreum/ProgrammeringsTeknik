@@ -33,18 +33,21 @@ public class TurtleTest {
 
         w.moveTo(30, 30);
         w.writeText("Nedan ska finnas en kvadrat");
-
+        
         t1.penDown();
         t2.penDown();
-
         t1.left(-90);
         t2.left(90);
+        
         t1.forward(50);
         t2.forward(50);
+
         t1.left(-90);
         t2.left(-90);
+ 
         t1.forward(50);
         t2.forward(50);
+
     }
 
     /**
@@ -55,7 +58,6 @@ public class TurtleTest {
         Turtle t2 = new Turtle(w, 380, 100);
         t2.penDown();
         t2.penUp();
-
         w.moveTo(280, 30);
         w.writeText("Nedan ska vara tomt");
 
@@ -115,7 +117,8 @@ public class TurtleTest {
     private void testForwardPenUp() {
         Turtle t = new Turtle(w, 0, 345);
         t.forward(200);
-
+ 
+        
         reportResult("Vet sköldpaddan var den är efter att den gått framåt med pennan uppe?", (t.getX() == 0 && t.getY() == 145));
     }
 

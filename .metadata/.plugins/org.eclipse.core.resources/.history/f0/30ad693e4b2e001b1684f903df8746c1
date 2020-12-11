@@ -1,9 +1,0 @@
-
-public class Enemy {
-
-	private int health;
-	private int strength;
-	private int skill;
-	private String weapon;
-
-}

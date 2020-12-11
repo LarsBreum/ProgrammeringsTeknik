@@ -1,0 +1,21 @@
+import se.lth.cs.pt.window.SimpleWindow;
+
+public class TurtleDrawSquare {
+ 	public static void main(String[] args) {
+		SimpleWindow w = new SimpleWindow(600, 600, "TurtleDrawSquare");
+		Turtle t = new Turtle(w, 300, 300);
+		t.penDown();
+		System.out.println("Is pen down? " + t.penDown);
+		for (int i = 0; i <= 4; i++) {
+			System.out.println("xPos: " + t.getX());
+			System.out.println("yPos: " + t.getY());
+			System.out.println("dir: " + t.getDirection());
+			t.forward(100);
+			if(t.penDown) {
+				w.lineTo(t.getX(), t.getY());
+			}
+			t.left(-Math.PI/2);
+			SimpleWindow.delay(1000);
+		}
+	}
+}
