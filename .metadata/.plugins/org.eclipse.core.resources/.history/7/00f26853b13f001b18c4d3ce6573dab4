@@ -1,0 +1,15 @@
+import se.lth.cs.pt.window.SimpleWindow;
+
+
+public class thousandSteps {
+	//En skölpadda tar 1000 steg
+	public static void main(String[] args) {
+		SimpleWindow w = new SimpleWindow(600, 600, "tuesenSteg");
+		Turtle t = new Turtle(w, 300, 300);
+		
+		
+		
+
+	}
+
+}

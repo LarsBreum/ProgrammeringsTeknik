@@ -1,0 +1,22 @@
+import se.lth.cs.pt.window.SimpleWindow;
+
+
+public class thousandSteps {
+	//En skölpadda tar 1000 steg
+	public static void main(String[] args) {
+		SimpleWindow w = new SimpleWindow(600, 600, "tuesenSteg");
+		Turtle t = new Turtle(w, 300, 300);
+		Random rand = new Math.Random();
+		
+		for (int i = 0; i < 1000; i++) {
+			
+			//turtle ska ta ett steg med slumpmässigt längd (1-10)
+			
+			//rätning är slumpmässigt [-180-180]
+			
+		}
+		
+
+	}
+
+}

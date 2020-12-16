@@ -1,0 +1,11 @@
+
+public class thousandSteps {
+
+	//En skölpadda tar 1000 steg
+	public static void main(String[] args) {
+		
+		
+
+	}
+
+}
