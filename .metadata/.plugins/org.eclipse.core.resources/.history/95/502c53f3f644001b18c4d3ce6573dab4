@@ -1,0 +1,14 @@
+
+public class MazeWalker {
+
+	
+	private Turtle turtle;
+	
+	public static void main(String[] args) {
+		
+		turtle.penDown();
+		
+
+	}
+
+}

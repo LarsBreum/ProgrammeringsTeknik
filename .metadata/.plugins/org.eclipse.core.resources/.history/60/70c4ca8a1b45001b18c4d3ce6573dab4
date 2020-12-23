@@ -1,0 +1,22 @@
+import se.lth.cs.pt.maze.Maze;
+import se.lth.cs.pt.window.SimpleWindow;
+
+
+
+
+public class MazeWalker {
+	SimpleWindow w = new SimpleWindow(600,600, "Maze");
+	Maze m = new Maze(1);
+	private Turtle turtle;
+		
+	public MazeWalker(Turtle turtle){
+		turtle = new Turtle(w, m.getXEntry(), m.getYEntry());
+		
+	}
+	
+	public void walk(Maze maze) {
+		turtle.penDown();
+		
+	}
+
+}

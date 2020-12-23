@@ -1,0 +1,20 @@
+
+public class Maze {
+
+	/** Skapar en labyrint med nummer nbr. */
+	Maze(int nbr);
+	/** Ritar labyrinten i fönstret w. */
+	void draw(SimpleWindow w);
+	/** Tar reda på x-koordinaten för ingången. */
+	int getXEntry();
+	/** Tar reda på y-koordinaten för ingången. */
+	int getYEntry();
+	/** Undersöker om punkten x,y är vid utgången. */
+	boolean atExit(int x, int y);
+	/** Undersöker om man, när man befinner sig i punkten x,y och är på väg i
+	riktningen direction, har en vägg direkt till vänster om sig. */
+	boolean wallAtLeft(int direction, int x, int y);
+	/** Som wallAtLeft, men undersöker om man har en vägg direkt framför sig. */
+	boolean wallInFront(int direction, int x, int y);
+
+}

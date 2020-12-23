@@ -54,7 +54,6 @@ public class TvåPaddor {
 		dir = rand.nextInt((180 + 180) + 180);
 		
 		return dir;
-		
 	}
 
 }

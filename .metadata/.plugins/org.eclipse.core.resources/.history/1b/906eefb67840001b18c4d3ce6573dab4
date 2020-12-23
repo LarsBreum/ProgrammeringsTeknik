@@ -1,0 +1,28 @@
+
+public class Hello {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		int start = 101;
+		int stop = 125;
+		int interval = 2;
+		int digit;
+		int res[] = new int[10];
+		
+		for(int i = start; i <= stop; i+=interval) {
+			int num = i;
+			
+			digit = num%10;
+			res[digit]++;
+			
+			
+		}
+		
+		return res[];
+		
+	}
+
+}
