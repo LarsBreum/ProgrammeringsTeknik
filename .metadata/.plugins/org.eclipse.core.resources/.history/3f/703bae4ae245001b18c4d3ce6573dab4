@@ -1,0 +1,10 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		Turtle turtle = new Turtle(w, m.getXEntry(), m.getYEntry());
+		MazeWalker maze = new MazeWalker();
+
+	}
+
+}

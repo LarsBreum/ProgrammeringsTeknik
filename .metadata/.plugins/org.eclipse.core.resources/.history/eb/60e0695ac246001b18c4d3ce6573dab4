@@ -1,0 +1,37 @@
+import se.lth.cs.pt.maze.Maze;
+
+
+public class MazeWalker {
+	private Turtle turtle;
+	private boolean wallAtLeft = false;
+	public MazeWalker(Turtle turtle){
+		this.turtle = turtle;
+	}
+	
+	public void walk(Maze maze) {
+		System.out.println("in walk method");
+		turtle.penDown();
+		wallAtLeft = maze.wallAtLeft(turtle.getDirection(), turtle.getX(), turtle.getY());
+		//Om en väg finns till vänster - gå framåt
+		while(wallAtLeft == true) {
+			turtle.forward(1);
+			wallAtLeft = maze.wallAtLeft(turtle.getDirection(), turtle.getX(), turtle.getY());
+			//Om en väg inte finns till vänster - sväng vänster
+			while (wallAtLeft != true) {
+				turtle.left(1);
+				//koll om det finns en vägg till vänster
+				if(maze.wallAtLeft(turtle.getDirection(), turtle.getX(), turtle.getY())) {
+					wallAtLeft = true;
+				}
+				System.out.println("wallAtLeft: " + wallAtLeft);
+			}
+			
+		}
+		
+		
+		
+		
+		
+	}
+
+}

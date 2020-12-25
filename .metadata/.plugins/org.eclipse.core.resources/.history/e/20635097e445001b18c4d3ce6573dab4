@@ -1,0 +1,19 @@
+import se.lth.cs.pt.maze.Maze;
+
+
+
+
+public class MazeWalker {
+	private Turtle turtle;
+		
+	public MazeWalker(Turtle turtle){
+		turtle = this.turtle;
+	}
+	
+	public void walk(Maze maze) {
+		turtle.penDown();
+		turtle.forward(10);
+		
+	}
+
+}

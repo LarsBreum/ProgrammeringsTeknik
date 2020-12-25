@@ -1,0 +1,17 @@
+import se.lth.cs.pt.maze.Maze;
+
+
+public class MazeWalker {
+	private Turtle turtle;
+		
+	public MazeWalker(Turtle turtle){
+		turtle = this.turtle;
+	}
+	
+	public void walk(Maze maze) {
+		System.out.println("in walk method");
+		turtle.forward(10);
+		
+	}
+
+}
