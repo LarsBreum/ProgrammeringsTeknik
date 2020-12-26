@@ -31,7 +31,15 @@ public class Applicant implements Comparable<Applicant> {
 	}
 
 	public double getAvgGrade() {
-		return 0; 
+		int total = 0;
+		double avg;
+		
+		for (int i = 0; i <= grades.length; i++) {
+			total += grades[i];
+		}
+		avg = total / grades.length;
+		
+		return avg; 
 	}
 
 	/*

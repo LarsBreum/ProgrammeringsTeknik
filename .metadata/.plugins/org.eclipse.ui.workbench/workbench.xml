@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="17" version="2.0">
+<workbench progressCount="15" version="2.0">
 <workbenchAdvisor/>
 <window height="768" maximized="true" width="1024" x="0" y="30">
 <fastViewData fastViewLocation="1024"/>
@@ -19,8 +19,10 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="230" y="28"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.ClassFileEditorNoSource" itemType="typePlaceholder" x="-1" y="-1"/>
-<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
@@ -29,10 +31,31 @@
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+</presentation>
 </folder>
 </info>
 </editorArea>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MazeWalker.java" partName="MazeWalker.java" path="/home/lars/Documents/Uni/pt-workspace/MazeTurtle/src/MazeWalker.java" title="MazeWalker.java" tooltip="MazeTurtle/src/MazeWalker.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MazeTurtle/src/MazeWalker.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1800" selectionTopPixel="524"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Main.java" partName="Main.java" path="/home/lars/Documents/Uni/pt-workspace/MazeTurtle/src/Main.java" title="Main.java" tooltip="MazeTurtle/src/Main.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MazeTurtle/src/Main.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="335" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Turtle.java" partName="Turtle.java" path="/home/lars/Documents/Uni/pt-workspace/Lab05-turtle/src/Turtle.java" title="Turtle.java" tooltip="Lab05-turtle/src/Turtle.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Lab05-turtle/src/Turtle.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="703" selectionTopPixel="959"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Main.java" partName="Main.java" path="/home/lars/Documents/Uni/pt-workspace/Lab04-textspel-klasser/src/Main.java" title="Main.java" tooltip="Lab04-textspel-klasser/src/Main.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Lab04-textspel-klasser/src/Main.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
 </editors>
 <views>
 <view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc"/>
@@ -69,6 +92,7 @@
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
 <category IMemento.internal.id="Errors"/>
+<category IMemento.internal.id="Warnings"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="825" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
@@ -333,58 +357,42 @@
 <view id="org.eclipse.debug.ui.BreakpointView"/>
 <view id="org.eclipse.ui.views.ContentOutline"/>
 <fastViewBars/>
-<layout>
-<mainWindow>
-<info folder="true" part="org.eclipse.debug.internal.ui.NavigatorFolderView">
-<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">
-<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.debug.ui.DebugView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.PackageExplorer" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="1434" ratioRight="478" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="1434" ratioRight="478" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.debug.internal.ui.ConsoleFolderView" ratio="0.75" ratioLeft="690" ratioRight="230" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
-<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
-<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.ConsoleFolderView" ratio="0.75" ratioLeft="690" ratioRight="230" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.PropertySheet" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.debug.ui.DisplayView" label="LabelNotFound"/>
 <page content="org.eclipse.search.SearchResultView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 <part id="1"/>
 </presentation>
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.44927537" ratioLeft="310" ratioRight="380" relationship="4" relative="org.eclipse.debug.internal.ui.NavigatorFolderView"/>
-<info folder="true" part="org.eclipse.debug.internal.ui.OutlineFolderView" ratio="0.75" ratioLeft="1434" ratioRight="478" relationship="2" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.OutlineFolderView" ratio="0.75" ratioLeft="1434" ratioRight="478" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
 <page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.5" ratioLeft="956" ratioRight="956" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">
-<folder activePageID="org.eclipse.debug.ui.VariableView" appearance="2" expanded="2">
-<page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
+<info folder="true" part="org.eclipse.debug.internal.ui.ToolsFolderView" ratio="0.5" ratioLeft="956" ratioRight="956" relationship="2" relative="org.eclipse.debug.internal.ui.NavigatorFolderView">&#x0A;<folder activePageID="org.eclipse.debug.ui.VariableView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.debug.ui.VariableView" label="Variables"/>
 <page content="org.eclipse.debug.ui.BreakpointView" label="Breakpoints"/>
 <page content="org.eclipse.debug.ui.ExpressionView" label="LabelNotFound"/>
 <page content="org.eclipse.debug.ui.RegisterView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 <part id="1"/>
 </presentation>
 </folder>
@@ -394,7 +402,164 @@
 </perspective>
 </perspectives>
 <workingSets/>
-<navigationHistory/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/MazeTurtle/src/MazeWalker.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/MazeTurtle/src/Main.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lab05-turtle/src/Turtle.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lab04-textspel-klasser/src/Main.java"/>
+</editors>
+<item historyLabel="MazeWalker.java" index="0">
+<position info="not_deleted" x="589" y="0"/>
+</item>
+<item historyLabel="MazeWalker.java" index="0">
+<position info="not_deleted" x="1239" y="0"/>
+</item>
+<item historyLabel="MazeWalker.java" index="0">
+<position info="not_deleted" x="1123" y="0"/>
+</item>
+<item historyLabel="MazeWalker.java" index="0">
+<position info="not_deleted" x="1491" y="0"/>
+</item>
+<item historyLabel="MazeWalker.java" index="0">
+<position info="not_deleted" x="1188" y="0"/>
+</item>
+<item historyLabel="Turtle.java" index="2">
+<position info="not_deleted" x="703" y="0"/>
+</item>
+<item historyLabel="Main.java" index="1">
+<position info="not_deleted" x="331" y="0"/>
+</item>
+<item historyLabel="MazeWalker.java" index="0">
+<position info="not_deleted" x="1938" y="0"/>
+</item>
+<item historyLabel="Main.java" index="1">
+<position info="not_deleted" x="330" y="0"/>
+</item>
+<item historyLabel="MazeWalker.java" index="0">
+<position info="not_deleted" x="1938" y="0"/>
+</item>
+<item historyLabel="MazeWalker.java" index="0">
+<position info="not_deleted" x="858" y="0"/>
+</item>
+<item historyLabel="MazeWalker.java" index="0">
+<position info="not_deleted" x="859" y="0"/>
+</item>
+<item historyLabel="MazeWalker.java" index="0">
+<position info="not_deleted" x="873" y="0"/>
+</item>
+<item historyLabel="MazeWalker.java" index="0">
+<position info="not_deleted" x="889" y="0"/>
+</item>
+<item historyLabel="MazeWalker.java" index="0">
+<position info="not_deleted" x="888" y="0"/>
+</item>
+<item historyLabel="MazeWalker.java" index="0">
+<position info="not_deleted" x="857" y="0"/>
+</item>
+<item historyLabel="MazeWalker.java" index="0">
+<position info="not_deleted" x="1721" y="0"/>
+</item>
+<item historyLabel="MazeWalker.java" index="0">
+<position info="not_deleted" x="1666" y="0"/>
+</item>
+<item historyLabel="MazeWalker.java" index="0">
+<position info="not_deleted" x="1682" y="0"/>
+</item>
+<item historyLabel="Main.java" index="1">
+<position info="not_deleted" x="330" y="0"/>
+</item>
+<item historyLabel="MazeWalker.java" index="0">
+<position info="not_deleted" x="1682" y="0"/>
+</item>
+<item historyLabel="MazeWalker.java" index="0">
+<position info="not_deleted" x="1884" y="0"/>
+</item>
+<item historyLabel="Main.java" index="1">
+<position info="not_deleted" x="330" y="0"/>
+</item>
+<item historyLabel="MazeWalker.java" index="0">
+<position info="not_deleted" x="1938" y="0"/>
+</item>
+<item historyLabel="Main.java" index="1">
+<position info="not_deleted" x="330" y="0"/>
+</item>
+<item historyLabel="MazeWalker.java" index="0">
+<position info="not_deleted" x="1938" y="0"/>
+</item>
+<item historyLabel="Main.java" index="1">
+<position info="not_deleted" x="330" y="0"/>
+</item>
+<item historyLabel="Main.java" index="1">
+<position info="not_deleted" x="202" y="0"/>
+</item>
+<item historyLabel="Main.java" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Main.java" index="1">
+<position info="not_deleted" x="202" y="0"/>
+</item>
+<item historyLabel="Main.java" index="1">
+<position/>
+</item>
+<item historyLabel="Main.java" index="1">
+<position info="not_deleted" x="555" y="0"/>
+</item>
+<item historyLabel="Main.java" index="1">
+<position info="not_deleted" x="512" y="0"/>
+</item>
+<item historyLabel="MazeWalker.java" index="0">
+<position info="not_deleted" x="1938" y="0"/>
+</item>
+<item historyLabel="Main.java" index="1">
+<position info="not_deleted" x="555" y="0"/>
+</item>
+<item historyLabel="Main.java" index="1">
+<position info="not_deleted" x="753" y="0"/>
+</item>
+<item historyLabel="Main.java" index="1">
+<position info="not_deleted" x="782" y="0"/>
+</item>
+<item historyLabel="MazeWalker.java" index="0">
+<position info="not_deleted" x="1938" y="0"/>
+</item>
+<item historyLabel="MazeWalker.java" index="0">
+<position/>
+</item>
+<item historyLabel="MazeWalker.java" index="0">
+<position info="not_deleted" x="1326" y="0"/>
+</item>
+<item historyLabel="MazeWalker.java" index="0">
+<position info="not_deleted" x="1465" y="0"/>
+</item>
+<item historyLabel="MazeWalker.java" index="0">
+<position info="not_deleted" x="1459" y="0"/>
+</item>
+<item historyLabel="MazeWalker.java" index="0">
+<position info="not_deleted" x="1432" y="0"/>
+</item>
+<item historyLabel="MazeWalker.java" index="0">
+<position info="not_deleted" x="1945" y="0"/>
+</item>
+<item historyLabel="Main.java" index="1">
+<position info="not_deleted" x="539" y="0"/>
+</item>
+<item historyLabel="MazeWalker.java" index="0">
+<position info="not_deleted" x="1884" y="0"/>
+</item>
+<item historyLabel="Main.java" index="1">
+<position info="not_deleted" x="335" y="0"/>
+</item>
+<item historyLabel="MazeWalker.java" index="0">
+<position info="not_deleted" x="1800" y="0"/>
+</item>
+<item historyLabel="Main.java" index="1">
+<position info="not_deleted" x="335" y="0"/>
+</item>
+<item active="true" historyLabel="MazeWalker.java" index="0">
+<position info="not_deleted" x="1800" y="0"/>
+</item>
+</navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>
@@ -411,50 +576,50 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Main.java" tooltip="Lab04-textspel-klasser/src/Main.java">
+<persistable path="/Lab04-textspel-klasser/src/Main.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Turtle.java" tooltip="Lab05-turtle/src/Turtle.java">
+<persistable path="/Lab05-turtle/src/Turtle.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Main.java" tooltip="MazeTurtle/src/Main.java">
+<persistable path="/MazeTurtle/src/Main.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TvåPaddor.java" tooltip="Lab05-turtle/src/TvåPaddor.java">
+<persistable path="/Lab05-turtle/src/TvåPaddor.java"/>
+</file>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Maze.class" tooltip="se.lth.cs.pt.maze.Maze">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Lab05-turtle/\/cs_pt\/cs_pt.jar&lt;se.lth.cs.pt.maze(Maze.class"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="thousandSteps.java" tooltip="Lab05-turtle/src/thousandSteps.java">
+<persistable path="/Lab05-turtle/src/thousandSteps.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Maze.java" tooltip="MazeTurtle/src/Maze.java">
+<persistable path="/MazeTurtle/src/Maze.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MazeWalker.java" tooltip="MazeTurtle/src/MazeWalker.java">
+<persistable path="/MazeTurtle/src/MazeWalker.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Hello.java" tooltip="HelloWorld/src/Hello.java">
+<persistable path="/HelloWorld/src/Hello.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="q7" tooltip="Lab05-turtle/src/q7">
+<persistable path="/Lab05-turtle/src/q7"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TurtleDrawRandomFigure.java" tooltip="Lab05-turtle/src/TurtleDrawRandomFigure.java">
+<persistable path="/Lab05-turtle/src/TurtleDrawRandomFigure.java"/>
+</file>
 <file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditorNoSource" name="Math.class" tooltip="java.lang.Math">
 <persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Lab05-turtle/\/usr\/lib\/jvm\/java-8-openjdk-amd64\/jre\/lib\/rt.jar&lt;java.lang(Math.class"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TurtleDrawSquare.java" tooltip="Lab05-turtle/src/TurtleDrawSquare.java">
 <persistable path="/Lab05-turtle/src/TurtleDrawSquare.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TurtleDrawRandomFigure.java" tooltip="Lab05-turtle/src/TurtleDrawRandomFigure.java">
-<persistable path="/Lab05-turtle/src/TurtleDrawRandomFigure.java"/>
-</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TurtleTest.java" tooltip="Lab05-turtle/src/TurtleTest.java">
 <persistable path="/Lab05-turtle/src/TurtleTest.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Turtle.java" tooltip="Lab05-turtle/src/Turtle.java">
-<persistable path="/Lab05-turtle/src/Turtle.java"/>
-</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Mole.java" tooltip="Lab03-jblockmole/src/Mole.java">
 <persistable path="/Lab03-jblockmole/src/Mole.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Enemy.java" tooltip="Lab04-textspel-klasser/src/Enemy.java">
-<persistable path="/Lab04-textspel-klasser/src/Enemy.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="LevelOne.java" tooltip="Lab04-textspel-klasser/src/LevelOne.java">
-<persistable path="/Lab04-textspel-klasser/src/LevelOne.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Player.java" tooltip="Lab04-textspel-klasser/src/Player.java">
-<persistable path="/Lab04-textspel-klasser/src/Player.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Main.java" tooltip="Lab04-textspel-klasser/src/Main.java">
-<persistable path="/Lab04-textspel-klasser/src/Main.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UserDrawSquare.java" tooltip="Lab02-anv-square/src/UserDrawSquare.java">
-<persistable path="/Lab02-anv-square/src/UserDrawSquare.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PrintClickDists.java" tooltip="Lab02-anv-square/src/PrintClickDists.java">
-<persistable path="/Lab02-anv-square/src/PrintClickDists.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PrintClicks.java" tooltip="Lab02-anv-square/src/PrintClicks.java">
-<persistable path="/Lab02-anv-square/src/PrintClicks.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DrawThreeSquares.java" tooltip="Lab02-anv-square/src/DrawThreeSquares.java">
-<persistable path="/Lab02-anv-square/src/DrawThreeSquares.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DrawSquare.java" tooltip="Lab02-anv-square/src/DrawSquare.java">
-<persistable path="/Lab02-anv-square/src/DrawSquare.java"/>
 </file>
 </mruList>
 </workbench>

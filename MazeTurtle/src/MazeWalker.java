@@ -57,12 +57,14 @@ public class MazeWalker {
 			if(maze.atExit(turtle.getX(), turtle.getY())) {
 				System.out.println("MAZE DONE");
 				System.out.println("You did it in: " + steps + " steps");
+				if(steps > 1000) {
+					System.out.println("WOW! Your turtle is in really good shape!");
+				}
 				break;
 			}
 		steps++;
 		SimpleWindow.delay(delay);				
 		}
-		
 		
 	}
 
