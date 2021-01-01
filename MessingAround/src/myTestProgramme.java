@@ -9,11 +9,16 @@ public class myTestProgramme {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner scan = new Scanner(System.in);
-		int[] nums = new int [4];
+		String string = "en lång sträng som är lång";
+		String[] temp = null;
+		
+		temp = string.split(" ");
+		
+		System.out.println(Arrays.toString(temp));
 		
 		
 		
-		System.out.println(Arrays.toString(nums));
+		
 		
 	}
 

@@ -1,5 +1,7 @@
 package rekrytering;
 
+import java.util.Arrays;
+
 public class Applicant implements Comparable<Applicant> {
 	//Varje sökande har ett namn och ett antal betyg
 	private String name;
@@ -18,23 +20,23 @@ public class Applicant implements Comparable<Applicant> {
 		// Om vi splittar strängen på komma (",") hamnar varje betyg i en vektor
 		String[] g = gradesAsString.split(",");
 		// Skapa vektorn med heltal
-		grades = new int[g.length];
+		grades = new int[5]; //vi vet det finns 5 kurser
 		// Iterera över alla betyg för att översätta dessa till ett heltal
 		for (int i = 0; i < g.length; i++) {
-			if (g[i].equals("U")) {
-				// Om underkänd så räknar vi det som en nolla
-				grades[i] = 0;
-			} else {
+			if ( g[i].equals("3") || g[i].equals("4") || g[i].equals("5")  ) { //om det inte är ett godkänd betyg antas det till UG
+				// Om inte 3, 4 eller 5, är det underkänd
 				grades[i] = Integer.parseInt(g[i]);
+			} else {
+				grades[i] = 0;
 			}
 		}
 	}
-
+	//hittar avg betyg
 	public double getAvgGrade() {
-		int total = 0;
+		double total = 0;
 		double avg;
 		
-		for (int i = 0; i <= grades.length; i++) {
+		for (int i = 0; i <= grades.length-1; i++) {
 			total += grades[i];
 		}
 		avg = total / grades.length;
@@ -42,12 +44,13 @@ public class Applicant implements Comparable<Applicant> {
 		return avg; 
 	}
 
-	/*
-	  Implementera denna när labbeskrivningen kräver det 
+	
+	  //Gör en applicants data läsbar
 	  public String toString() {
-	      //Fyll i kod här 
+		  String output = this.name + Arrays.toString(grades) + "(avg: " + this.getAvgGrade() + ")";
+		  return output;
 	  }
-	 */
+	 
 
 	/*
 	 * Metod för att jämföra detta Applicant-objekt med ett annat och få ut vilket

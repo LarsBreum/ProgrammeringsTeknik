@@ -1,0 +1,31 @@
+1. Vilka atributter ha klassen applicant?
+	name och grades
+Finns det något i klassen du måste implementera för att göra den komplett?
+	getAvgGrade metoden
+2. Vad är tanken med FindBestCandidate och FileReader?
+	FileReader läser in filer, FindBestCanditate sortera kanditerna efter betyg och printer dem som har över 4
+4. Kan du se att konstruktern i klassen Applicant redan har kod som fixar detta?
+	Ja
+På vilka rader hittar du det som tolkar betygen och översätter dem till heltalsvärden?
+	I metoden parseGrades rad: 26 och 28
+Vad heter attributet i vilket heltalsbetygen ligger lagrade?
+	grades[]
+8. Hur blir utskriften av resultaten från readFromFile()?
+	Det blir en beskrivning av själva objektet: [Lrekrytering.Applicant;@14ae5a5
+	Och alltså inte innehållet i själva objektet
+11. Varför är det bra att änvända konstanter på ett ställe, och sen bara använda sig av namnet?
+	Det finns bara ett ställe att ändra värden av konstanten. DO NO REPEAT YOURSELF är ett gott maxim
+12. Testa med olika värde för MIN_AVG_GRADE
+	Funktionen fungerar
+13. Vad händte om man satte parametren nbrOfRows till 30, i FindBestCandidate?
+	Om antal rader som ska läsas blev större än antal rader i filen, förskökte programmet att anropa obj som inte fanns
+	Löste det genom att räkna hur många rader det finns i filen innan det färdiga applicants[] obj skapas
+14. Vad hände om du läser in den stora filen?
+	Fik numberFormatException for input string "A". ParseInt fel,
+15. Det har inte varit tydligt hur betygen ska anges och det har varit möjligt
+att helt enkelt mata in lite allt möjligt i fälten avsedda för betyg. Anteckna nedan: vilka
+problem finns det med indata och vilka är dina förslag på hur det skulle kunna lösas?
+	Indatan, särskilt om man betygen underkänd, skriv inte på samma sätt varje gång. När datan blev intastet
+	borde programmat ha säkerstället att det va samma. U= underkänd, eller 0 = underkänd. Bara man gorde detsamma hela vägen.
+	Man kan också läsa in felslag som betyget noll, eller anta om folk inte kan skriva in rätt, är de inte smarte nog till
+	att jobba för mitt företag.

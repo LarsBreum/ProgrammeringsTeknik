@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="15" version="2.0">
+<workbench progressCount="18" version="2.0">
 <workbenchAdvisor/>
 <window height="768" maximized="true" width="1024" x="0" y="30">
 <fastViewData fastViewLocation="1024"/>
@@ -20,7 +20,7 @@
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="230" y="28"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
-<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.ClassFileEditorNoSource" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
@@ -33,32 +33,39 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
-<part id="1"/>
 <part id="2"/>
 <part id="3"/>
+<part id="1"/>
+<part id="4"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MazeWalker.java" partName="MazeWalker.java" path="/home/lars/Documents/Uni/pt-workspace/MazeTurtle/src/MazeWalker.java" title="MazeWalker.java" tooltip="MazeTurtle/src/MazeWalker.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MazeTurtle/src/MazeWalker.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1800" selectionTopPixel="524"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Applicant.java" partName="Applicant.java" path="/home/lars/Documents/Uni/pt-workspace/Lab07-rekrytering/src/rekrytering/Applicant.java" title="Applicant.java" tooltip="Lab07-rekrytering/src/rekrytering/Applicant.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Lab07-rekrytering/src/rekrytering/Applicant.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1116" selectionTopPixel="135"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Main.java" partName="Main.java" path="/home/lars/Documents/Uni/pt-workspace/MazeTurtle/src/Main.java" title="Main.java" tooltip="MazeTurtle/src/Main.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MazeTurtle/src/Main.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="335" selectionTopPixel="0"/>
+<editor id="org.eclipse.ui.DefaultTextEditor" name="q&amp;a.txt" partName="q&amp;a.txt" path="/home/lars/Documents/Uni/pt-workspace/Lab07-rekrytering/q&amp;a.txt" title="q&amp;a.txt" tooltip="Lab07-rekrytering/q&amp;a.txt" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Lab07-rekrytering/q&amp;a.txt"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2083" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Turtle.java" partName="Turtle.java" path="/home/lars/Documents/Uni/pt-workspace/Lab05-turtle/src/Turtle.java" title="Turtle.java" tooltip="Lab05-turtle/src/Turtle.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Lab05-turtle/src/Turtle.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="703" selectionTopPixel="959"/>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FileReader.java" partName="FileReader.java" path="/home/lars/Documents/Uni/pt-workspace/Lab07-rekrytering/src/rekrytering/FileReader.java" title="FileReader.java" tooltip="Lab07-rekrytering/src/rekrytering/FileReader.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Lab07-rekrytering/src/rekrytering/FileReader.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1056" selectionTopPixel="329"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Main.java" partName="Main.java" path="/home/lars/Documents/Uni/pt-workspace/Lab04-textspel-klasser/src/Main.java" title="Main.java" tooltip="Lab04-textspel-klasser/src/Main.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Lab04-textspel-klasser/src/Main.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FindBestCandidates.java" partName="FindBestCandidates.java" path="/home/lars/Documents/Uni/pt-workspace/Lab07-rekrytering/src/rekrytering/FindBestCandidates.java" title="FindBestCandidates.java" tooltip="Lab07-rekrytering/src/rekrytering/FindBestCandidates.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Lab07-rekrytering/src/rekrytering/FindBestCandidates.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="370" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.ui.DefaultTextEditor" name="applications_x.txt" partName="applications_x.txt" path="/home/lars/Documents/Uni/pt-workspace/Lab07-rekrytering/applications_x.txt" title="applications_x.txt" tooltip="Lab07-rekrytering/applications_x.txt" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Lab07-rekrytering/applications_x.txt"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="50" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
-<view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc"/>
+<view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc">
+<viewState/>
+</view>
 <view id="org.eclipse.jdt.ui.PackageExplorer" partName="Package Explorer">
 <viewState group_libraries="1" layout="2" linkWithEditor="0" rootMode="1" workingSetName="Aggregate for window 1603806836186">
 <customFilters userDefinedPatternsEnabled="false">
@@ -142,7 +149,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.ui.console.ConsoleView" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.ui.internal.ide.application.ResourcePerspective" id="org.eclipse.ui.resourcePerspective" label="Resource"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -404,160 +411,162 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/MazeTurtle/src/MazeWalker.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/MazeTurtle/src/Main.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lab05-turtle/src/Turtle.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lab04-textspel-klasser/src/Main.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lab07-rekrytering/src/rekrytering/Applicant.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lab07-rekrytering/src/rekrytering/FileReader.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lab07-rekrytering/src/rekrytering/FindBestCandidates.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/Lab07-rekrytering/applications_small.txt"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/Lab07-rekrytering/q&amp;a.txt"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/Lab07-rekrytering/applications_x.txt"/>
 </editors>
-<item historyLabel="MazeWalker.java" index="0">
-<position info="not_deleted" x="589" y="0"/>
+<item historyLabel="FileReader.java" index="1">
+<position info="not_deleted" x="1013" y="0"/>
 </item>
-<item historyLabel="MazeWalker.java" index="0">
-<position info="not_deleted" x="1239" y="0"/>
+<item historyLabel="FileReader.java" index="1">
+<position info="not_deleted" x="919" y="0"/>
 </item>
-<item historyLabel="MazeWalker.java" index="0">
-<position info="not_deleted" x="1123" y="0"/>
+<item historyLabel="FindBestCandidates.java" index="2">
+<position info="not_deleted" x="370" y="0"/>
 </item>
-<item historyLabel="MazeWalker.java" index="0">
-<position info="not_deleted" x="1491" y="0"/>
+<item historyLabel="FileReader.java" index="1">
+<position info="not_deleted" x="1606" y="0"/>
 </item>
-<item historyLabel="MazeWalker.java" index="0">
-<position info="not_deleted" x="1188" y="0"/>
+<item historyLabel="FindBestCandidates.java" index="2">
+<position info="not_deleted" x="370" y="0"/>
 </item>
-<item historyLabel="Turtle.java" index="2">
-<position info="not_deleted" x="703" y="0"/>
+<item historyLabel="Applicant.java" index="0">
+<position info="not_deleted" x="1194" y="0"/>
 </item>
-<item historyLabel="Main.java" index="1">
-<position info="not_deleted" x="331" y="0"/>
+<item historyLabel="FindBestCandidates.java" index="2">
+<position info="not_deleted" x="370" y="0"/>
 </item>
-<item historyLabel="MazeWalker.java" index="0">
-<position info="not_deleted" x="1938" y="0"/>
+<item historyLabel="FileReader.java" index="1">
+<position info="not_deleted" x="1678" y="0"/>
 </item>
-<item historyLabel="Main.java" index="1">
-<position info="not_deleted" x="330" y="0"/>
+<item historyLabel="FileReader.java" index="1">
+<position info="not_deleted" x="1009" y="16"/>
 </item>
-<item historyLabel="MazeWalker.java" index="0">
-<position info="not_deleted" x="1938" y="0"/>
+<item historyLabel="FileReader.java" index="1">
+<position info="not_deleted" x="1524" y="0"/>
 </item>
-<item historyLabel="MazeWalker.java" index="0">
-<position info="not_deleted" x="858" y="0"/>
+<item historyLabel="q&amp;a.txt" index="4">
+<position info="not_deleted" x="1119" y="0"/>
 </item>
-<item historyLabel="MazeWalker.java" index="0">
-<position info="not_deleted" x="859" y="0"/>
+<item historyLabel="applications_small.txt" index="3">
+<position info="not_deleted" x="95" y="0"/>
 </item>
-<item historyLabel="MazeWalker.java" index="0">
-<position info="not_deleted" x="873" y="0"/>
+<item historyLabel="FileReader.java" index="1">
+<position info="not_deleted" x="1524" y="0"/>
 </item>
-<item historyLabel="MazeWalker.java" index="0">
-<position info="not_deleted" x="889" y="0"/>
+<item historyLabel="FindBestCandidates.java" index="2">
+<position info="not_deleted" x="362" y="0"/>
 </item>
-<item historyLabel="MazeWalker.java" index="0">
-<position info="not_deleted" x="888" y="0"/>
+<item historyLabel="q&amp;a.txt" index="4">
+<position info="not_deleted" x="2083" y="0"/>
 </item>
-<item historyLabel="MazeWalker.java" index="0">
-<position info="not_deleted" x="857" y="0"/>
+<item historyLabel="FindBestCandidates.java" index="2">
+<position info="not_deleted" x="362" y="0"/>
 </item>
-<item historyLabel="MazeWalker.java" index="0">
-<position info="not_deleted" x="1721" y="0"/>
+<item historyLabel="q&amp;a.txt" index="4">
+<position info="not_deleted" x="2083" y="0"/>
 </item>
-<item historyLabel="MazeWalker.java" index="0">
-<position info="not_deleted" x="1666" y="0"/>
+<item historyLabel="applications_small.txt" index="3">
+<position info="not_deleted" x="95" y="0"/>
 </item>
-<item historyLabel="MazeWalker.java" index="0">
-<position info="not_deleted" x="1682" y="0"/>
+<item historyLabel="q&amp;a.txt" index="4">
+<position info="not_deleted" x="2083" y="0"/>
 </item>
-<item historyLabel="Main.java" index="1">
-<position info="not_deleted" x="330" y="0"/>
-</item>
-<item historyLabel="MazeWalker.java" index="0">
-<position info="not_deleted" x="1682" y="0"/>
-</item>
-<item historyLabel="MazeWalker.java" index="0">
-<position info="not_deleted" x="1884" y="0"/>
-</item>
-<item historyLabel="Main.java" index="1">
-<position info="not_deleted" x="330" y="0"/>
-</item>
-<item historyLabel="MazeWalker.java" index="0">
-<position info="not_deleted" x="1938" y="0"/>
-</item>
-<item historyLabel="Main.java" index="1">
-<position info="not_deleted" x="330" y="0"/>
-</item>
-<item historyLabel="MazeWalker.java" index="0">
-<position info="not_deleted" x="1938" y="0"/>
-</item>
-<item historyLabel="Main.java" index="1">
-<position info="not_deleted" x="330" y="0"/>
-</item>
-<item historyLabel="Main.java" index="1">
-<position info="not_deleted" x="202" y="0"/>
-</item>
-<item historyLabel="Main.java" index="3">
+<item historyLabel="applications_x.txt" index="5">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Main.java" index="1">
-<position info="not_deleted" x="202" y="0"/>
+<item historyLabel="q&amp;a.txt" index="4">
+<position info="not_deleted" x="2083" y="0"/>
 </item>
-<item historyLabel="Main.java" index="1">
+<item historyLabel="applications_x.txt" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="q&amp;a.txt" index="4">
+<position info="not_deleted" x="2083" y="0"/>
+</item>
+<item historyLabel="FindBestCandidates.java" index="2">
+<position info="not_deleted" x="362" y="0"/>
+</item>
+<item historyLabel="FileReader.java" index="1">
+<position info="not_deleted" x="1524" y="0"/>
+</item>
+<item historyLabel="Applicant.java" index="0">
+<position info="not_deleted" x="1194" y="0"/>
+</item>
+<item historyLabel="Applicant.java" index="0">
 <position/>
 </item>
-<item historyLabel="Main.java" index="1">
-<position info="not_deleted" x="555" y="0"/>
-</item>
-<item historyLabel="Main.java" index="1">
-<position info="not_deleted" x="512" y="0"/>
-</item>
-<item historyLabel="MazeWalker.java" index="0">
-<position info="not_deleted" x="1938" y="0"/>
-</item>
-<item historyLabel="Main.java" index="1">
-<position info="not_deleted" x="555" y="0"/>
-</item>
-<item historyLabel="Main.java" index="1">
-<position info="not_deleted" x="753" y="0"/>
-</item>
-<item historyLabel="Main.java" index="1">
-<position info="not_deleted" x="782" y="0"/>
-</item>
-<item historyLabel="MazeWalker.java" index="0">
-<position info="not_deleted" x="1938" y="0"/>
-</item>
-<item historyLabel="MazeWalker.java" index="0">
+<item historyLabel="Applicant.java" index="0">
 <position/>
 </item>
-<item historyLabel="MazeWalker.java" index="0">
-<position info="not_deleted" x="1326" y="0"/>
+<item historyLabel="FindBestCandidates.java" index="2">
+<position info="not_deleted" x="362" y="0"/>
 </item>
-<item historyLabel="MazeWalker.java" index="0">
-<position info="not_deleted" x="1465" y="0"/>
+<item historyLabel="FileReader.java" index="1">
+<position info="not_deleted" x="1524" y="0"/>
 </item>
-<item historyLabel="MazeWalker.java" index="0">
-<position info="not_deleted" x="1459" y="0"/>
+<item historyLabel="Applicant.java" index="0">
+<position/>
 </item>
-<item historyLabel="MazeWalker.java" index="0">
-<position info="not_deleted" x="1432" y="0"/>
+<item historyLabel="Applicant.java" index="0">
+<position info="not_deleted" x="993" y="0"/>
 </item>
-<item historyLabel="MazeWalker.java" index="0">
-<position info="not_deleted" x="1945" y="0"/>
+<item historyLabel="Applicant.java" index="0">
+<position/>
 </item>
-<item historyLabel="Main.java" index="1">
-<position info="not_deleted" x="539" y="0"/>
+<item historyLabel="Applicant.java" index="0">
+<position/>
 </item>
-<item historyLabel="MazeWalker.java" index="0">
-<position info="not_deleted" x="1884" y="0"/>
+<item historyLabel="Applicant.java" index="0">
+<position/>
 </item>
-<item historyLabel="Main.java" index="1">
-<position info="not_deleted" x="335" y="0"/>
+<item historyLabel="Applicant.java" index="0">
+<position/>
 </item>
-<item historyLabel="MazeWalker.java" index="0">
-<position info="not_deleted" x="1800" y="0"/>
+<item historyLabel="Applicant.java" index="0">
+<position/>
 </item>
-<item historyLabel="Main.java" index="1">
-<position info="not_deleted" x="335" y="0"/>
+<item historyLabel="FileReader.java" index="1">
+<position info="not_deleted" x="1056" y="0"/>
 </item>
-<item active="true" historyLabel="MazeWalker.java" index="0">
-<position info="not_deleted" x="1800" y="0"/>
+<item historyLabel="Applicant.java" index="0">
+<position info="not_deleted" x="996" y="0"/>
+</item>
+<item historyLabel="FileReader.java" index="1">
+<position info="not_deleted" x="1056" y="0"/>
+</item>
+<item historyLabel="FindBestCandidates.java" index="2">
+<position info="not_deleted" x="370" y="0"/>
+</item>
+<item historyLabel="FileReader.java" index="1">
+<position info="not_deleted" x="1056" y="0"/>
+</item>
+<item historyLabel="FindBestCandidates.java" index="2">
+<position info="not_deleted" x="370" y="0"/>
+</item>
+<item historyLabel="Applicant.java" index="0">
+<position info="not_deleted" x="1116" y="0"/>
+</item>
+<item historyLabel="FindBestCandidates.java" index="2">
+<position info="not_deleted" x="370" y="0"/>
+</item>
+<item historyLabel="applications_x.txt" index="5">
+<position info="not_deleted" x="50" y="0"/>
+</item>
+<item historyLabel="FindBestCandidates.java" index="2">
+<position info="not_deleted" x="370" y="0"/>
+</item>
+<item historyLabel="FileReader.java" index="1">
+<position info="not_deleted" x="1056" y="0"/>
+</item>
+<item historyLabel="Applicant.java" index="0">
+<position info="not_deleted" x="1116" y="0"/>
+</item>
+<item active="true" historyLabel="FileReader.java" index="1">
+<position info="not_deleted" x="1056" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -576,6 +585,30 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="applications_x.txt" tooltip="Lab07-rekrytering/applications_x.txt">
+<persistable path="/Lab07-rekrytering/applications_x.txt"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="myTestProgramme.java" tooltip="MessingAround/src/myTestProgramme.java">
+<persistable path="/MessingAround/src/myTestProgramme.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="applications_all.txt" tooltip="Lab07-rekrytering/applications_all.txt">
+<persistable path="/Lab07-rekrytering/applications_all.txt"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="applications_small.txt" tooltip="Lab07-rekrytering/applications_small.txt">
+<persistable path="/Lab07-rekrytering/applications_small.txt"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FindBestCandidates.java" tooltip="Lab07-rekrytering/src/rekrytering/FindBestCandidates.java">
+<persistable path="/Lab07-rekrytering/src/rekrytering/FindBestCandidates.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FileReader.java" tooltip="Lab07-rekrytering/src/rekrytering/FileReader.java">
+<persistable path="/Lab07-rekrytering/src/rekrytering/FileReader.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="q&amp;a.txt" tooltip="Lab07-rekrytering/q&amp;a.txt">
+<persistable path="/Lab07-rekrytering/q&amp;a.txt"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Applicant.java" tooltip="Lab07-rekrytering/src/rekrytering/Applicant.java">
+<persistable path="/Lab07-rekrytering/src/rekrytering/Applicant.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Main.java" tooltip="Lab04-textspel-klasser/src/Main.java">
 <persistable path="/Lab04-textspel-klasser/src/Main.java"/>
 </file>
@@ -596,30 +629,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Maze.java" tooltip="MazeTurtle/src/Maze.java">
 <persistable path="/MazeTurtle/src/Maze.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MazeWalker.java" tooltip="MazeTurtle/src/MazeWalker.java">
-<persistable path="/MazeTurtle/src/MazeWalker.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Hello.java" tooltip="HelloWorld/src/Hello.java">
-<persistable path="/HelloWorld/src/Hello.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="q7" tooltip="Lab05-turtle/src/q7">
-<persistable path="/Lab05-turtle/src/q7"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TurtleDrawRandomFigure.java" tooltip="Lab05-turtle/src/TurtleDrawRandomFigure.java">
-<persistable path="/Lab05-turtle/src/TurtleDrawRandomFigure.java"/>
-</file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditorNoSource" name="Math.class" tooltip="java.lang.Math">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=Lab05-turtle/\/usr\/lib\/jvm\/java-8-openjdk-amd64\/jre\/lib\/rt.jar&lt;java.lang(Math.class"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TurtleDrawSquare.java" tooltip="Lab05-turtle/src/TurtleDrawSquare.java">
-<persistable path="/Lab05-turtle/src/TurtleDrawSquare.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TurtleTest.java" tooltip="Lab05-turtle/src/TurtleTest.java">
-<persistable path="/Lab05-turtle/src/TurtleTest.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Mole.java" tooltip="Lab03-jblockmole/src/Mole.java">
-<persistable path="/Lab03-jblockmole/src/Mole.java"/>
 </file>
 </mruList>
 </workbench>
