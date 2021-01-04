@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Collections;
 
 public class FindBestCandidates {
-	private static final double MIN_AVG_GRADE = 2.0;
+	private static final double MIN_AVG_GRADE = 4.0;
 	private static final String fileName = "applications_all.txt";
 
 	public static void main(String[] args) {
@@ -26,7 +26,7 @@ public class FindBestCandidates {
 		System.out.println("De bästa kandidaterna från filen: " + fileName + " är:");
 		for(int i = 0; i <= bestApplicants.length-1; i++) {
 			Arrays.sort(bestApplicants, Collections.reverseOrder());
-			System.out.println(bestApplicants[i].toString());
+			System.out.println(i + ": " + bestApplicants[i].toString());
 		}
 	}
 

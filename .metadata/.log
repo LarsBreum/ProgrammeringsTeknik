@@ -312,3 +312,12 @@ Java Model Exception: Java Model Status [Build path contains duplicate entry: 'o
 	at org.eclipse.jdt.core.JavaCore.run(JavaCore.java:5204)
 	at org.eclipse.jdt.internal.ui.actions.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:106)
 	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+!SESSION 2021-01-04 15:47:52.513 -----------------------------------------------
+eclipse.buildId=debbuild
+java.version=1.8.0_265
+java.vendor=Private Build
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2021-01-04 15:47:55.902
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.

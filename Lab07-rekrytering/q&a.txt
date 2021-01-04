@@ -36,8 +36,26 @@ problem finns det med indata och vilka är dina förslag på hur det skulle kunn
 	Hur skulle man lagra datan utanför kursen? Eftersom det kräver mycket minne att lagra i en array.
 	Man skulle kunna skriva till en ny fil, så datan lagras på disk istället för RAM'en. 
 
-18. 
-	
-	
+18. Kommentera på lösningar till algoritmerna
+	Bo Ali: Hade bra betyg men hade missförstått data inputet.
+			Borde löses vid input delen av applikationen, inte vid själva utväljingen. 
+			Det skall alltså säkerställes att man bara fär intaste lagliga betyg.
+			Kan också löses genom att sätta A = 5, B = 4, C = 3 och else = 0.
+	Rasmus Andreasson: Hade inte löst sista kursen pga. utlandsstudier.
+			Han borde skriva inn betyget för det liknande kursen.
+	Rut Andreason: Fick bra betyg i början men löste inte de svära momenten
+			Det är väl dem man vill skilja från? Dem som inte gjorde det bra
+	Bosse Larson: Fick bra betyg till slut.
+			Man kunde ge de sista två kurserna en störra vikt. Så de betyder mer, efter som det nog är
+			de färdigheterna på de svåra kursen man kommer andvända mest
+	Alice Abrahamsson 5,5,3,5,5 //Toppstudent som gick igenom en svår kris privat under en termin. Lyckades trots detta nå godkänt
+			Om man bara väljer på betyg är det en svår problemställning. Om man också väljer på andra färdigheter
+			kan det löses med en samtal
+	Sandra Nilsson 5,5,5 //Hoppat av programmet? 
+			Det är väl också dem vi vill sortera fra.
+	Per Persson 3,U,3,44,3 //Skrivfel?
+			Borde löses i input delen av programmet. Det borde inte vara möjligt att intaste olaglig data. 	
+19. Löste med Bo Ali
+	Implementerat en vikt
 	
 	
