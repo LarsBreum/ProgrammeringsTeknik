@@ -1,0 +1,26 @@
+package memory;
+
+public class MemoryGame {
+	public static void main(String[] args) {
+		String[] frontFileNames = {"can.jpg", "flopsy_mopsy_cottontail.jpg",
+				"friends.jpg", "mother_ladybird.jpg", "mr_mcgregor.jpg",
+				"mrs_rabbit.jpg", "mrs_tittlemouse.jpg", "radishes.jpg" };
+		
+		// Fyll i egen kod här
+		MemoryBoard board = new MemoryBoard(4, "back.jpg", frontFileNames);
+		MemoryWindow w = new MemoryWindow(board);
+		w.drawBoard();
+		int r = 0;
+		int c = 0;
+		while(true) {
+			for(int i = 0; i < 2; i++) { //Two clicks
+				w.waitForMouseClick();
+				r = w.getMouseRow();
+				c = w.getMouseCol();
+				board.turnCard(r, c);
+				w.drawCard(r, c);
+			}
+			board.same(r1, c1, r2, c2);
+		}
+	}
+}
