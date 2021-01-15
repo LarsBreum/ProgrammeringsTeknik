@@ -1,0 +1,30 @@
+import java.util.Random;
+
+
+
+public class RaceTurtle extends Turtle {
+	Random rand = new Random();
+	RaceWindow w;
+	int nbr;
+	
+	//Skapar en RaceTurtle
+	RaceTurtle(RaceWindow w, int nbr) {
+		super(penDown, dir);
+		this.w = w;
+		this.nbr = nbr;
+		
+		
+		
+		
+	}
+	//Takes one step forward between one and 6 lengths
+	void raceStep() {
+		int step = rand.nextInt(6);
+		forward(step);
+	}
+	
+	String toString(){
+		
+	}
+
+}

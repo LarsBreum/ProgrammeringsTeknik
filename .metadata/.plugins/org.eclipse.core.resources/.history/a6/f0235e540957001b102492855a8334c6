@@ -1,0 +1,27 @@
+
+
+public class RaceTurtle extends Turtle {
+	
+	RaceWindow w;
+	int nbr;
+	
+	//Skapar en RaceTurtle
+	RaceTurtle(RaceWindow w, int nbr) {
+		super(penDown, dir);
+		this.w = w;
+		this.nbr = nbr;
+		
+		
+		
+		
+	}
+
+	public void raceStep() {
+		int step = 0;
+		step = Math.random(6);
+		
+	}
+	
+
+
+}

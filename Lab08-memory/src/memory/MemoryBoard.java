@@ -1,7 +1,5 @@
 package memory;
-import java.awt.Image;
 import java.util.Random;
-import java.util.ArrayList;
 
 
 public class MemoryBoard {
@@ -30,7 +28,7 @@ public class MemoryBoard {
 	   Placerar ut varje kort på två slumpmässiga ställen på spelplanen. */
 	private void createCards(String backFileName, String[] frontFileNames, Boolean[][] cardUp) {
 		int i = 0;
-		for(Boolean[] row : cardUp) { //all cards must start with face down (false)
+		for(Boolean[] row : cardUp) { //all cards must start with face down E.G: false
 			for (int i2 = 0; i2 <= row.length-1; i2++) {
 				row[i2] = false;
 			}
@@ -105,8 +103,8 @@ public class MemoryBoard {
 		}	
 		return allUp;
 	}	
-	/*shuffles board for example to start new game */
-	public void shuffleBoard(MemoryCardImage[] cards){
+	/*shuffles the board*/
+	public void shuffleBoard(MemoryCardImage[] cards) {
 		int r = 0;
 		int c = 0;
 		Boolean[][] cardPlaced = new Boolean[size][size]; //array. Controls if a card has been placed
@@ -126,4 +124,26 @@ public class MemoryBoard {
 			}
 		}
 	}
+
+	
+
+	
+	/*resets board. For example to start new game 
+	public void resetBoard(MemoryBoard board){
+		
+		int i = 0;
+		MemoryCardImage[] cards = new MemoryCardImage[size*2];
+		for (MemoryBoard[] row : board) { //takes the board and turns it to an array of the cards
+			for(MemoryBoard card : row) {
+				//if the card is not equal to any other card in the array, add it
+				for(MemoryCardImage image : cards) {
+					if(image != card) {
+						cards[i] = card;
+						i++;
+					}
+				}
+			}
+		}
+		shuffleBoard(cards);
+	}*/
 }

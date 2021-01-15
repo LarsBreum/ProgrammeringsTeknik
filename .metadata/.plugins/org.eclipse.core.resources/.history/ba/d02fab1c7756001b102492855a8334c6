@@ -1,0 +1,14 @@
+
+public class RaceTurtle extends Turtle {
+	int x;
+	int y;
+	
+	//Skapar en RaceTurtle
+	RaceTurtle(RaceWindow w, int nbr) {
+		super(x, y);
+		
+	}
+	
+
+
+}

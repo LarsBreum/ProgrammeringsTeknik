@@ -1,0 +1,21 @@
+public class RaceTurtle extends Turtle {
+	RaceWindow w;
+	int nbr;
+	//Skapar en RaceTurtle
+	RaceTurtle(RaceWindow w, int nbr) {
+		this.w = w;
+		this.nbr = nbr;
+		super(penDown, dir);
+		
+		
+		
+	}
+
+	public void raceStep() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+
+
+}
