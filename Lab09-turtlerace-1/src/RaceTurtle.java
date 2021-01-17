@@ -25,7 +25,7 @@ public class RaceTurtle extends Turtle {
 	
 	//Prints the raceTurtle
 	public String toString(){
-		return null;
+		return "Nummer " + nbr;
 	}
 
 }

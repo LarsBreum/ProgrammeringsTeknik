@@ -1,0 +1,12 @@
+import java.util.ArrayList;
+
+
+public class TurtleRace {
+	public static void main(String[] args) {
+		RaceWindow w = new RaceWindow();
+		ArrayList<RaceTurtle> turtles = new ArrayList<RaceTurtle>();
+		RaceTurtle t = new RaceTurtle(w, 1);
+		
+	}
+
+}
