@@ -1,0 +1,8 @@
+De med minst startnummer prioriteras varför:
+	De blir testat först i loopen.
+Hur kan man åtgärda det?. Det finns omedelbart två lösningar
+	2. Man ger varje sköldpadda eget loop och stoppar dem in i placements listen när de rammer mål
+		Denna tar inte hänsyn till delta placeringar
+	1. Man ger varje sköldpadda eget loop, och timer istället löpet (lika verkligheten). 
+		Den tar hänsyn till delta placeringar.
+	
