@@ -1,0 +1,22 @@
+
+public class Customer {
+
+	/**skapar en kund **/
+	
+	/** behöver:
+	 * namn
+	 * id-nummer
+	 * kund-nummer (unikt och internt till banken)
+	 */
+
+	String name;
+	int customerNbr;
+	long idNbr;
+	
+	Customer(String name, long idNbr) { //constructor
+		this.name = name;
+		this.idNbr = idNbr;
+		
+	}
+	
+}

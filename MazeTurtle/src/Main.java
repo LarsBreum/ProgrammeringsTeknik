@@ -34,7 +34,7 @@ public class Main {
 		
 		
 		//walks the maze
-		walker.walk(m);
+		walker.walkTwo(m);
 		
 	}
 

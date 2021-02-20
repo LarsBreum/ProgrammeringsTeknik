@@ -1,0 +1,23 @@
+
+
+/* creates a bankaccount to a user*/
+/* Needs: 
+ * holderName
+ * holderId
+ * amount
+ * 
+ */
+
+public class BankAccount {
+	String holderName;
+	long holderId;
+
+	BankAccount(Customer Holder) { //constructor
+		this.holderName = Holder.getName();
+		this.holderId = Holder.getIdNbr();
+	}
+	
+	/* returns the owner of the account */
+	
+
+}

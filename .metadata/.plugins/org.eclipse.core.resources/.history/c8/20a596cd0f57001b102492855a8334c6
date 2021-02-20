@@ -1,9 +1,0 @@
-
-public class TurtleRace {
-	public static void main(String[] args) {
-		RaceWindow w = new RaceWindow();
-		ArrayList<RaceTurtle> = new ArrayList<RaceTurtle>();
-
-	}
-
-}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename field &apos;confuse&apos; in &apos;AbsentMindedTurtle&apos; to &apos;absent&apos;&#x0A;- Original project: &apos;Lab10&apos;&#x0A;- Original element: &apos;AbsentMindedTurtle.confuse&apos;&#x0A;- Renamed element: &apos;AbsentMindedTurtle.absent&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" delegate="false" deprecate="false" description="Rename field &apos;confuse&apos;" flags="589830" getter="false" id="org.eclipse.jdt.ui.rename.field" input="/src&lt;{AbsentMindedTurtle.java[AbsentMindedTurtle^confuse" name="absent" references="true" setter="false" stamp="1611071131027" textual="false" version="1.0"/>
+</session>

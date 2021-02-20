@@ -1,0 +1,27 @@
+import java.util.ArrayList;
+
+
+public class Bank {
+	
+	/*
+	 * Creates a new bank
+	 * Needs:
+	 * list of accounts
+	 */
+
+	ArrayList<BankAccount> accounts;
+	
+	Bank(){ //constructor
+		this.accounts = new ArrayList<BankAccount>();
+	}
+	
+	/*
+	 * Open a new bank account. If the customer already exists 
+	 * a new customer should not be added, but the account should be added to that customer
+	 */
+	int addAccount(String holderName, long idNbr) {
+		
+		return null;
+	}
+	
+}

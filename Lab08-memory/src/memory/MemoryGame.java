@@ -75,5 +75,6 @@ public class MemoryGame {
 				" Tries - Click the screen to play agian", "Tries",
 				JOptionPane.INFORMATION_MESSAGE);
 		w.waitForMouseClick();
+		
 	}
 }
