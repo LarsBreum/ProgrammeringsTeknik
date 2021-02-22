@@ -10,13 +10,15 @@ public class Customer {
 	 */
 
 	String name;
-	public static int customerNbr; //static so all instances of this variable is unique
+	static int count;
+	int customerNbr; 
 	long idNbr;
 	
 	Customer(String name, long idNbr) { //constructor
 		this.name = name;
 		this.idNbr = idNbr;
-		customerNbr++; //everytime a new customer is created, it gets a number +1 higher than the one before.
+		count++;
+		customerNbr = count;
 		
 	}
 	
@@ -32,7 +34,7 @@ public class Customer {
 	
 	/* gets the customers internal number */
 	int getCustomerNbr() {
-		return Customer.customerNbr;
+		return customerNbr;
 	}
 	
 	/*returns the customer as a string*/

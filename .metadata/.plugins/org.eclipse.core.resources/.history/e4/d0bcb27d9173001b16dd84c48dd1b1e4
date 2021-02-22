@@ -1,0 +1,22 @@
+
+public class BankApplication {
+
+	
+	public static void main(String[] args) {
+		
+		Bank bank = new Bank();
+		
+		menu();
+		
+	}
+	
+	public void menu() {
+		String[] menu = {"Find Account by Owner", "Search for owner by name", "Deposit",
+		            "Withdraw", "Transfer", "Create Account", "Delete Account",
+		            "Print account information", "End Session"};
+		for(int i = 0; i < menu.length; i++) {
+			System.out.println(i + ": " + menu[i]);
+		}
+	}
+
+}

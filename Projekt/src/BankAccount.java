@@ -5,23 +5,38 @@
  * holderName
  * holderId
  * amount
- * 
+ * accountNbr
+ * count
  */
 
 public class BankAccount {
+	Customer holder;
 	String holderName;
 	long holderId;
 	double amount;
-
-	BankAccount(Customer Holder) { //constructor
-		this.holderName = Holder.getName();
-		this.holderId = Holder.getIdNbr();
+	static int count;
+	int accountNbr;
+	
+	BankAccount(String holderName, long holderId) { //constructor one
+		this.holderName = holderName;
+		this.holderId = holderId;
+		count++;
+		accountNbr = count;
+		amount = 0;
+	}
+	
+	BankAccount(Customer holder) { //constructor two
+		this.holder = holder;
+		this.holderName = holder.getName();
+		this.holderId = holder.getIdNbr();
+		count++;
+		accountNbr = count;
 		amount = 0;
 	}
 	
 	/* returns the owner of the account */
-	String getHolder(){
-		return holderName;
+	Customer getHolder(){
+		return holder;
 	}
 	/* returns the amount of money in the account */
 	double getAmount() {
@@ -35,9 +50,13 @@ public class BankAccount {
 	void withdraw(double withdraw) {
 		amount = amount - withdraw;
 	}
+	/*	Returns the account Number */
+	int getAccountNbr() {
+		return accountNbr;
+	}
 	/* toString */
 	public String toString(){
-		String output = "Holder: " + holderName + " Amount: " + amount;
+		String output = "Holder: " + holderName + ". Account Number: " + accountNbr + ". Amount: " + amount;
 		return output;
 	}
 	

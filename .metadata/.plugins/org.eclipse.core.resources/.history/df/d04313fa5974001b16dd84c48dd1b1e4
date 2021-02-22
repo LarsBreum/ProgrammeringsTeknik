@@ -1,0 +1,59 @@
+
+
+/* creates a bankaccount to a user*/
+/* Needs: 
+ * holderName
+ * holderId
+ * amount
+ * accountNbr
+ */
+
+public class BankAccount {
+	String holderName;
+	long holderId;
+	double amount;
+	static int accountNbr;
+	
+	BankAccount(String holderName, long holderId) { //constructor
+		this.holderName = holderName;
+		this.holderId = holderId;
+		accountNbr++;
+		amount = 0;
+	}
+	
+	BankAccount(Customer Holder) { //constructor
+		this.holderName = Holder.getName();
+		this.holderId = Holder.getIdNbr();
+		amount = 0;
+	}
+	
+	
+	
+	/* returns the owner of the account */
+	String getHolder(){
+		return holderName;
+	}
+	/* returns the amount of money in the account */
+	double getAmount() {
+		return amount;
+	}
+	/* deposits 'deposit' in the account */
+	void deposit(double deposit) {
+		amount = amount + deposit;
+	}
+	/*withdraws 'withdraw' from the account */
+	void withdraw(double withdraw) {
+		amount = amount - withdraw;
+	}
+	/*	Returns the account Number */
+	int getAccountNbr() {
+		return accountNbr;
+	}
+	/* toString */
+	public String toString(){
+		String output = "Holder: " + holderName + ". Account Number: " + accountNbr + ". Amount: " + amount;
+		return output;
+	}
+	
+
+}
