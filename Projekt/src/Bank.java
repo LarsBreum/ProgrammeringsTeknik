@@ -59,7 +59,7 @@ public class Bank {
 		return true;
 	}
 	/*
-	 * Returns the list of all the accounts
+	 * Returns the list of all the accounts. Sorted by name ascending
 	 */
 	ArrayList<BankAccount> getAllAccounts(){
 		return accounts;
@@ -68,13 +68,27 @@ public class Bank {
 	 * returns all the accounts owned by owner with that idNbr
 	 */
 	ArrayList<BankAccount> findAccountsForHolder(long idNbr){
-		return null;
+		ArrayList<BankAccount> output = new ArrayList<BankAccount>();
+		for (BankAccount account : accounts) {
+			
+			if(idNbr == account.getHolder().getIdNbr())
+			output.add(account);			
+		}
+		return output;
 	}
 	/*
 	 * returns a list of all the customers with namePart in their name
 	 */
 	ArrayList<Customer> findByPartOfName(String namePart) {
-		return null;
+		
+		ArrayList<Customer> output = new ArrayList<Customer>(); //output list
+		for(BankAccount account : accounts) {
+			//if namePart is a a part of account holders name and holder does not already exists in the output list
+			if(account.getHolder().getName().contains(namePart) && output.contains(account.getHolder()) == false) { 
+				output.add(account.getHolder());
+			}
+		}
+		return output;
 	}
 	
 }
