@@ -33,11 +33,14 @@ public class BankApplication {
 			System.out.print("You added an account with the following account number: ");
 			System.out.println(bank.addAccount("Alice",1233));
 		}
+		//Add an account with
+		System.out.println(bank.addAccount("Larsen",1010));
 		
 		while (true) {
 			int choice = menu(scan);
 			
 			if(choice == 1) {
+				//Find accounts by Owner's ID
 				System.out.println("Search for a customers account using his ID. Input the ID");
 				ArrayList<BankAccount> accQuery = bank.findAccountsForHolder(inputId(scan));
 				if(accQuery.isEmpty()) {
@@ -49,19 +52,46 @@ public class BankApplication {
 				}
 				
 			} else if(choice == 2) {
-							
-				String nameQuery = inputName(scan);
-				ArrayList<Customer> accQuery = bank.findByPartOfName(nameQuery);
-				
-				for(Customer c : accQuery) {
-					System.out.println(c);
-				}
+					//Search for accounts by name
+					String nameQuery = inputName(scan);
+					ArrayList<Customer> accQuery = bank.findByPartOfName(nameQuery);
+					if(accQuery.isEmpty()) {
+						System.out.println("No customers exist with " + nameQuery + " in their name");
+					} else {
+						System.out.println("The following Customers had " + nameQuery + " in their name: ");
+						for(Customer c : accQuery) {
+							System.out.println(c);
+						}
+					
+					}
 				
 				
 			} else if(choice == 3) {
-				System.out.println("You chose " + choice + " This has not been implemented yet");
+				//Deposit
+				
+				System.out.println("In which account do you want to deposit?");
+				int accountNbr = inputInt(scan);
+				//Find the account with that number
+				BankAccount acc = findAccountWithNbr(accountNbr, bank);
+				System.out.println("You are depositing to: " + acc);
+				System.out.println("How much do you want to deposit?");
+				acc.deposit(scan.nextDouble());
+				System.out.println(acc);
+				
+				
 			} else if(choice == 4) {
-				System.out.println("You chose " + choice + " This has not been implemented yet");
+				//Withdraw
+				
+				System.out.println("From which account do you want to withdraw?");
+				int accountNbr = inputInt(scan);
+				//Find the account with that number
+				BankAccount acc = findAccountWithNbr(accountNbr, bank);
+				System.out.println("You are withdraeing from " + acc);
+				System.out.println("How much do you want to withdraw?");
+				acc.withdraw(scan.nextDouble());
+				System.out.println(acc);
+				
+
 			} else if(choice == 5) {
 				System.out.println("You chose " + choice + " This has not been implemented yet");
 			} else if (choice == 6) {
@@ -77,8 +107,7 @@ public class BankApplication {
 				System.out.println("You chose " + choice + " This has not been implemented yet");
 				
 			} else if (choice == 8) {
-				
-				
+							
 				for(BankAccount account : bank.getAllAccounts()) {
 					System.out.println(account);
 				}
@@ -111,7 +140,7 @@ public class BankApplication {
 	 */
 	static String inputName(Scanner scan) {
 		
-		System.out.println("ADD ACCOUNT. Write the name");
+		System.out.println("Write the name");
 		
 		String name = "";
 		
@@ -137,5 +166,25 @@ public class BankApplication {
 		}
 		return idNbr;
 	}
-
+	/*
+	 * Gets an int from the user with the scanner
+	 */
+	static int inputInt(Scanner scan) {
+		int input = 0;
+		input = scan.nextInt();
+		return input;
+	}
+	/*
+	 * Return an account with accountNbr as input
+	 */
+	static BankAccount findAccountWithNbr(int accountNbr, Bank bank) {
+		BankAccount account = null;
+		for(BankAccount acc : bank.getAllAccounts()) {
+			if(acc.getAccountNbr() == accountNbr) {
+				account = acc;
+			}
+		}
+		return account;
+	}
+	
 }

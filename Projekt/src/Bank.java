@@ -33,7 +33,7 @@ public class Bank {
 				break;
 			} 
 		}	
-		//if customer does not exist create new account with
+		//if customer does not exist create new account with input as name
 		if(exists == false) {
 			accounts.add(new BankAccount(new Customer(holderName, idNbr)));
 			output = accounts.get(accounts.size()-1).getAccountNbr();
@@ -59,9 +59,28 @@ public class Bank {
 		return true;
 	}
 	/*
-	 * Returns the list of all the accounts. Sorted by name ascending
+	 * Returns the list of all the accounts. Sorted by holderName ascending
 	 */
 	ArrayList<BankAccount> getAllAccounts(){
+		BankAccount account1;
+		BankAccount account2;
+		BankAccount temp;
+		
+		/*for(int i = 0; i < accounts.size(); i++) { //runs through all the accounts
+			account1 = accounts.get(i);
+			for(int k = i+1; k < accounts.size(); k++) { //Runs through a second time
+				account2 = accounts.get(k);
+				//Compare the two account's name
+				if(account1.getHolder().getName().compareToIgnoreCase(account2.getHolder().getName()) > 0) {
+					//swap places between the two
+					temp = account1;
+					accounts.set(i, account2); //Sets second element in the first index
+					accounts.set(k, temp); //Sets the first element in the secon index
+				}
+				
+			}
+		}*/
+		
 		return accounts;
 	}
 	/*
@@ -83,9 +102,9 @@ public class Bank {
 		
 		ArrayList<Customer> output = new ArrayList<Customer>(); //output list
 		for(BankAccount account : accounts) {
-			//if namePart is a a part of account holders name and holder does not already exists in the output list
-			if(account.getHolder().getName().contains(namePart) && output.contains(account.getHolder()) == false) { 
-				output.add(account.getHolder());
+			//if namePart is a a part of account holder's name and holder does not already exists in the output list
+			if(account.getHolder().getName().toLowerCase().contains(namePart.toLowerCase()) && output.contains(account.getHolder()) == false) { 
+				output.add(account.getHolder()); 
 			}
 		}
 		return output;

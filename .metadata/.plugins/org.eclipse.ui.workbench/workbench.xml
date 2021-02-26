@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="18" version="2.0">
+<workbench progressCount="17" version="2.0">
 <workbenchAdvisor/>
 <window height="768" maximized="true" width="1024" x="0" y="30">
 <fastViewData fastViewLocation="1024"/>
@@ -34,22 +34,27 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
+<part id="3"/>
 <part id="2"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TurtleRace.java" partName="TurtleRace.java" path="/home/lars/Documents/Uni/pt-workspace/Lab10/src/TurtleRace.java" title="TurtleRace.java" tooltip="Lab10/src/TurtleRace.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Lab10/src/TurtleRace.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="202"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Customer.java" partName="Customer.java" path="/home/lars/Documents/Uni/pt-workspace/Projekt/src/Customer.java" title="Customer.java" tooltip="Projekt/src/Customer.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Projekt/src/Customer.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="157" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AbsentMindedTurtle.java" partName="AbsentMindedTurtle.java" path="/home/lars/Documents/Uni/pt-workspace/Lab10/src/AbsentMindedTurtle.java" title="AbsentMindedTurtle.java" tooltip="Lab10/src/AbsentMindedTurtle.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Lab10/src/AbsentMindedTurtle.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BankAccount.java" partName="BankAccount.java" path="/home/lars/Documents/Uni/pt-workspace/Projekt/src/BankAccount.java" title="BankAccount.java" tooltip="Projekt/src/BankAccount.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Projekt/src/BankAccount.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="354" selectionTopPixel="0"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DizzyTurtle.java" partName="DizzyTurtle.java" path="/home/lars/Documents/Uni/pt-workspace/Lab10/src/DizzyTurtle.java" title="DizzyTurtle.java" tooltip="Lab10/src/DizzyTurtle.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Lab10/src/DizzyTurtle.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="263" selectionTopPixel="0"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BankApplication.java" partName="BankApplication.java" path="/home/lars/Documents/Uni/pt-workspace/Projekt/src/BankApplication.java" title="BankApplication.java" tooltip="Projekt/src/BankApplication.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Projekt/src/BankApplication.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="676" selectionTopPixel="135"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Bank.java" partName="Bank.java" path="/home/lars/Documents/Uni/pt-workspace/Projekt/src/Bank.java" title="Bank.java" tooltip="Projekt/src/Bank.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Projekt/src/Bank.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1625" selectionTopPixel="743"/>
 </editor>
 </editors>
 <views>
@@ -87,6 +92,10 @@
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<expanded>
+<category IMemento.internal.id="Errors"/>
+<category IMemento.internal.id="Warnings"/>
+</expanded>
 <columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="825" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
@@ -135,7 +144,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspectives activePart="org.eclipse.ui.console.ConsoleView" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.ui.internal.ide.application.ResourcePerspective" id="org.eclipse.ui.resourcePerspective" label="Resource"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -280,7 +289,7 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.25" ratioLeft="478" ratioRight="1434" relationship="2" relative="left"/>
+<info part="org.eclipse.ui.editorss" ratio="0.20586695" ratioLeft="393" ratioRight="1516" relationship="2" relative="left"/>
 <info folder="true" part="bottom" ratio="0.653217" ratioLeft="599" ratioRight="318" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
@@ -397,168 +406,160 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/MazeTurtle/src/MazeWalker.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/MazeTurtle/src/Main.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/Lab07-rekrytering/q&amp;a.txt"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lab08-memory/src/memory/MemoryBoard.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lab08-memory/src/memory/MemoryGame.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/Lab08-memory/src/funderingar över programmer"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lab09-turtlerace-1/src/RaceTurtle.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lab09-turtlerace-1/src/RaceWindow.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lab09-turtlerace-1/src/TurtleRace.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lab10/src/TurtleRace.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lab10/src/AbsentMindedTurtle.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Lab10/src/DizzyTurtle.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Projekt/src/BankAccount.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Projekt/src/BankApplication.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Projekt/src/Bank.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/Projekt/src/Customer.java"/>
 </editors>
-<item historyLabel="MazeWalker.java" index="0">
+<item historyLabel="Bank.java" index="2">
 <position/>
 </item>
-<item historyLabel="MazeWalker.java" index="0">
+<item historyLabel="BankApplication.java" index="1">
+<position info="not_deleted" x="235" y="0"/>
+</item>
+<item historyLabel="BankAccount.java" index="0">
+<position info="not_deleted" x="354" y="0"/>
+</item>
+<item historyLabel="Customer.java" index="3">
+<position info="not_deleted" x="157" y="0"/>
+</item>
+<item historyLabel="Bank.java" index="2">
 <position/>
 </item>
-<item historyLabel="MazeWalker.java" index="0">
+<item historyLabel="Bank.java" index="2">
 <position/>
 </item>
-<item historyLabel="MazeWalker.java" index="0">
+<item historyLabel="Bank.java" index="2">
 <position/>
 </item>
-<item historyLabel="MazeWalker.java" index="0">
+<item historyLabel="Bank.java" index="2">
 <position/>
 </item>
-<item historyLabel="MazeWalker.java" index="0">
+<item historyLabel="Bank.java" index="2">
 <position/>
 </item>
-<item historyLabel="MazeWalker.java" index="0">
+<item historyLabel="Bank.java" index="2">
 <position/>
 </item>
-<item historyLabel="MazeWalker.java" index="0">
+<item historyLabel="BankApplication.java" index="1">
+<position info="not_deleted" x="470" y="0"/>
+</item>
+<item historyLabel="Bank.java" index="2">
 <position/>
 </item>
-<item historyLabel="MazeWalker.java" index="0">
-<position info="not_deleted" x="476" y="0"/>
+<item historyLabel="BankApplication.java" index="1">
+<position info="not_deleted" x="676" y="0"/>
 </item>
-<item historyLabel="Main.java" index="1">
-<position info="not_deleted" x="881" y="0"/>
+<item historyLabel="BankAccount.java" index="0">
+<position info="not_deleted" x="354" y="0"/>
 </item>
-<item historyLabel="MazeWalker.java" index="0">
+<item historyLabel="Bank.java" index="2">
+<position info="not_deleted" x="1598" y="0"/>
+</item>
+<item historyLabel="Bank.java" index="2">
 <position/>
 </item>
-<item historyLabel="MazeWalker.java" index="0">
-<position info="not_deleted" x="418" y="0"/>
-</item>
-<item historyLabel="MazeWalker.java" index="0">
+<item historyLabel="Bank.java" index="2">
 <position/>
 </item>
-<item historyLabel="MazeWalker.java" index="0">
+<item historyLabel="Bank.java" index="2">
 <position/>
 </item>
-<item historyLabel="MazeWalker.java" index="0">
+<item historyLabel="Bank.java" index="2">
 <position/>
 </item>
-<item historyLabel="MazeWalker.java" index="0">
+<item historyLabel="Bank.java" index="2">
 <position/>
 </item>
-<item historyLabel="MazeWalker.java" index="0">
+<item historyLabel="Bank.java" index="2">
 <position/>
 </item>
-<item historyLabel="MazeWalker.java" index="0">
+<item historyLabel="Bank.java" index="2">
 <position/>
 </item>
-<item historyLabel="MazeWalker.java" index="0">
+<item historyLabel="Bank.java" index="2">
+<position info="not_deleted" x="1604" y="0"/>
+</item>
+<item historyLabel="Bank.java" index="2">
 <position/>
 </item>
-<item historyLabel="MazeWalker.java" index="0">
-<position info="not_deleted" x="540" y="0"/>
+<item historyLabel="Bank.java" index="2">
+<position/>
 </item>
-<item historyLabel="MazeWalker.java" index="0">
-<position info="not_deleted" x="555" y="0"/>
+<item historyLabel="Bank.java" index="2">
+<position/>
 </item>
-<item historyLabel="MazeWalker.java" index="0">
-<position info="not_deleted" x="556" y="0"/>
+<item historyLabel="Bank.java" index="2">
+<position/>
 </item>
-<item historyLabel="MazeWalker.java" index="0">
-<position info="not_deleted" x="570" y="0"/>
+<item historyLabel="Bank.java" index="2">
+<position/>
 </item>
-<item historyLabel="MazeWalker.java" index="0">
-<position info="not_deleted" x="707" y="0"/>
+<item historyLabel="Bank.java" index="2">
+<position/>
 </item>
-<item historyLabel="MazeWalker.java" index="0">
-<position info="not_deleted" x="596" y="0"/>
+<item historyLabel="Bank.java" index="2">
+<position info="not_deleted" x="1868" y="0"/>
 </item>
-<item historyLabel="MazeWalker.java" index="0">
-<position info="not_deleted" x="645" y="0"/>
+<item historyLabel="Bank.java" index="2">
+<position/>
 </item>
-<item historyLabel="MazeWalker.java" index="0">
-<position info="not_deleted" x="646" y="0"/>
+<item historyLabel="Bank.java" index="2">
+<position/>
 </item>
-<item historyLabel="MazeWalker.java" index="0">
-<position info="not_deleted" x="660" y="0"/>
+<item historyLabel="Bank.java" index="2">
+<position info="not_deleted" x="1623" y="0"/>
 </item>
-<item historyLabel="MazeWalker.java" index="0">
-<position info="not_deleted" x="661" y="0"/>
+<item historyLabel="BankApplication.java" index="1">
+<position info="not_deleted" x="676" y="0"/>
 </item>
-<item historyLabel="MazeWalker.java" index="0">
-<position info="not_deleted" x="675" y="0"/>
+<item historyLabel="Bank.java" index="2">
+<position info="not_deleted" x="1557" y="0"/>
 </item>
-<item historyLabel="MazeWalker.java" index="0">
-<position info="not_deleted" x="677" y="0"/>
+<item historyLabel="Bank.java" index="2">
+<position/>
 </item>
-<item historyLabel="MazeWalker.java" index="0">
-<position info="not_deleted" x="1792" y="0"/>
+<item historyLabel="Bank.java" index="2">
+<position/>
 </item>
-<item historyLabel="Main.java" index="1">
-<position info="not_deleted" x="881" y="0"/>
+<item historyLabel="Bank.java" index="2">
+<position/>
 </item>
-<item historyLabel="q&amp;a.txt" index="2">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="Bank.java" index="2">
+<position info="not_deleted" x="1714" y="0"/>
 </item>
-<item historyLabel="MemoryBoard.java" index="3">
-<position info="not_deleted" x="3018" y="0"/>
+<item historyLabel="Bank.java" index="2">
+<position info="not_deleted" x="1939" y="0"/>
 </item>
-<item historyLabel="MemoryGame.java" index="4">
-<position info="not_deleted" x="463" y="0"/>
+<item historyLabel="Bank.java" index="2">
+<position info="not_deleted" x="1651" y="0"/>
 </item>
-<item historyLabel="funderingar över programmer" index="5">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="Bank.java" index="2">
+<position info="not_deleted" x="1935" y="0"/>
 </item>
-<item historyLabel="RaceTurtle.java" index="6">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="Bank.java" index="2">
+<position info="not_deleted" x="1930" y="0"/>
 </item>
-<item historyLabel="RaceWindow.java" index="7">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="Bank.java" index="2">
+<position info="not_deleted" x="1784" y="0"/>
 </item>
-<item historyLabel="TurtleRace.java" index="8">
-<position info="not_deleted" x="567" y="0"/>
+<item historyLabel="Bank.java" index="2">
+<position info="not_deleted" x="1843" y="0"/>
 </item>
-<item historyLabel="RaceTurtle.java" index="6">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="Bank.java" index="2">
+<position info="not_deleted" x="1845" y="1"/>
 </item>
-<item historyLabel="TurtleRace.java" index="8">
-<position info="not_deleted" x="567" y="0"/>
+<item historyLabel="Bank.java" index="2">
+<position info="not_deleted" x="1843" y="0"/>
 </item>
-<item historyLabel="RaceTurtle.java" index="6">
-<position info="not_deleted" x="202" y="0"/>
+<item historyLabel="Bank.java" index="2">
+<position info="not_deleted" x="1853" y="0"/>
 </item>
-<item historyLabel="TurtleRace.java" index="8">
-<position info="not_deleted" x="567" y="0"/>
+<item historyLabel="Bank.java" index="2">
+<position info="not_deleted" x="1881" y="0"/>
 </item>
-<item historyLabel="RaceTurtle.java" index="6">
-<position info="not_deleted" x="202" y="0"/>
-</item>
-<item historyLabel="TurtleRace.java" index="8">
-<position info="not_deleted" x="355" y="0"/>
-</item>
-<item historyLabel="funderingar över programmer" index="5">
-<position info="not_deleted" x="410" y="0"/>
-</item>
-<item historyLabel="TurtleRace.java" index="9">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="AbsentMindedTurtle.java" index="10">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item active="true" historyLabel="DizzyTurtle.java" index="11">
-<position info="not_deleted" x="0" y="0"/>
+<item active="true" historyLabel="Bank.java" index="2">
+<position info="not_deleted" x="1887" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -577,20 +578,41 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Main.java" tooltip="Lab04-textspel-klasser/src/Main.java">
+<persistable path="/Lab04-textspel-klasser/src/Main.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Calculator.java" tooltip="Lab01-introduktion/src/Calculator.java">
+<persistable path="/Lab01-introduktion/src/Calculator.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RaceWindow.java" tooltip="Lab09-turtlerace-1/src/RaceWindow.java">
+<persistable path="/Lab09-turtlerace-1/src/RaceWindow.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TurtleRace.java" tooltip="Lab09-turtlerace-1/src/TurtleRace.java">
+<persistable path="/Lab09-turtlerace-1/src/TurtleRace.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Bank.java" tooltip="Projekt/src/Bank.java">
+<persistable path="/Projekt/src/Bank.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RaceTurtle.java" tooltip="Lab10/src/RaceTurtle.java">
+<persistable path="/Lab10/src/RaceTurtle.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TurtleRace.java" tooltip="Lab10/src/TurtleRace.java">
+<persistable path="/Lab10/src/TurtleRace.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BankApplication.java" tooltip="Projekt/src/BankApplication.java">
+<persistable path="/Projekt/src/BankApplication.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="BankAccount.java" tooltip="Projekt/src/BankAccount.java">
+<persistable path="/Projekt/src/BankAccount.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Customer.java" tooltip="Projekt/src/Customer.java">
+<persistable path="/Projekt/src/Customer.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DizzyTurtle.java" tooltip="Lab10/src/DizzyTurtle.java">
 <persistable path="/Lab10/src/DizzyTurtle.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AbsentMindedTurtle.java" tooltip="Lab10/src/AbsentMindedTurtle.java">
 <persistable path="/Lab10/src/AbsentMindedTurtle.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TurtleRace.java" tooltip="Lab10/src/TurtleRace.java">
-<persistable path="/Lab10/src/TurtleRace.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TurtleRace.java" tooltip="Lab09-turtlerace-1/src/TurtleRace.java">
-<persistable path="/Lab09-turtlerace-1/src/TurtleRace.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RaceWindow.java" tooltip="Lab09-turtlerace-1/src/RaceWindow.java">
-<persistable path="/Lab09-turtlerace-1/src/RaceWindow.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="RaceTurtle.java" tooltip="Lab09-turtlerace-1/src/RaceTurtle.java">
 <persistable path="/Lab09-turtlerace-1/src/RaceTurtle.java"/>
@@ -600,27 +622,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MemoryGame.java" tooltip="Lab08-memory/src/memory/MemoryGame.java">
 <persistable path="/Lab08-memory/src/memory/MemoryGame.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MemoryBoard.java" tooltip="Lab08-memory/src/memory/MemoryBoard.java">
-<persistable path="/Lab08-memory/src/memory/MemoryBoard.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Main.java" tooltip="MazeTurtle/src/Main.java">
-<persistable path="/MazeTurtle/src/Main.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MazeWalker.java" tooltip="MazeTurtle/src/MazeWalker.java">
-<persistable path="/MazeTurtle/src/MazeWalker.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="q&amp;a.txt" tooltip="Lab07-rekrytering/q&amp;a.txt">
-<persistable path="/Lab07-rekrytering/q&amp;a.txt"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Applicant.java" tooltip="Lab07-rekrytering/src/rekrytering/Applicant.java">
-<persistable path="/Lab07-rekrytering/src/rekrytering/Applicant.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FindBestCandidates.java" tooltip="Lab07-rekrytering/src/rekrytering/FindBestCandidates.java">
-<persistable path="/Lab07-rekrytering/src/rekrytering/FindBestCandidates.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TvåPaddor.java" tooltip="Lab05-turtle/src/TvåPaddor.java">
-<persistable path="/Lab05-turtle/src/TvåPaddor.java"/>
 </file>
 </mruList>
 </workbench>

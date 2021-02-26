@@ -48,7 +48,11 @@ public class BankAccount {
 	}
 	/*withdraws 'withdraw' from the account */
 	void withdraw(double withdraw) {
-		amount = amount - withdraw;
+		if(amount < withdraw) {
+			System.out.println("Not enough money in account");
+		} else {
+			amount = amount - withdraw;
+		}
 	}
 	/*	Returns the account Number */
 	int getAccountNbr() {
