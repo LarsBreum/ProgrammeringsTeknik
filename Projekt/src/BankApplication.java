@@ -86,15 +86,33 @@ public class BankApplication {
 				int accountNbr = inputInt(scan);
 				//Find the account with that number
 				BankAccount acc = findAccountWithNbr(accountNbr, bank);
-				System.out.println("You are withdraeing from " + acc);
+				System.out.println("You are withdrawing from " + acc);
 				System.out.println("How much do you want to withdraw?");
 				acc.withdraw(scan.nextDouble());
 				System.out.println(acc);
 				
 
 			} else if(choice == 5) {
-				System.out.println("You chose " + choice + " This has not been implemented yet");
+				//Transfer money between two accounts
+				double amount = 0;
+				System.out.println("From which account do you want to transfer?");
+				int accountNbr = inputInt(scan);
+				//Find the account with that number
+				BankAccount acc1 = findAccountWithNbr(accountNbr, bank);
+				System.out.println("You are transfering from " + acc1);
+				System.out.println("How much do you want to transfer?");
+				
+				amount = scan.nextDouble();
+				acc1.withdraw(amount);
+				
+				System.out.println("To which account do you want to transfer?");
+				accountNbr = inputInt(scan);
+				BankAccount acc2 = findAccountWithNbr(accountNbr, bank);
+				
+				acc2.deposit(amount);
+				System.out.println("You have transferred " + amount + "\n from: " + acc1 + "\n to: " + acc2);
 			} else if (choice == 6) {
+				//Create account
 				
 				Customer c = new Customer(inputName(scan), inputId(scan));
 				System.out.print("You added an account with the following account number: ");
@@ -104,7 +122,7 @@ public class BankApplication {
 				
 		
 			} else if (choice == 7) {
-				System.out.println("You chose " + choice + " This has not been implemented yet");
+				//Delete account
 				
 			} else if (choice == 8) {
 							
@@ -113,7 +131,9 @@ public class BankApplication {
 				}
 				
 			} else if (choice == 9) {
-				System.out.println("You chose " + choice + ". This has not been implemented yet");
+				//End session and terminate programme
+				System.out.println("Goodbye!");
+				System.exit(0);
 			}
 		}
 			
